@@ -1,0 +1,405 @@
+/**
+*	GridCSS v1.0: Easy CSS Grid and some CSS components
+*	2013 (c) Antonio Villamarin, @antvillamarin, http://ant.onio.org
+* 
+*	MIT License - http://www.opensource.org/licenses/mit-license.php
+*/
+
+/* Reset
+ ****************/
+html, body, div, span, applet,
+object, iframe, h1, h2, h3, h4,
+h5, h6, p, blockquote, pre, a,
+abbr, acronym, address, big,
+cite, code, del, dfn, em, img,
+ins, kbd, q, s, samp, small,
+strike, strong, sub, sup, tt,
+var, b, u, i, center, dl, dt,
+dd, ol, ul, li, fieldset, form,
+label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details,
+embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output,
+ruby, section, summary, time, mark,
+audio, video 								{ 	margin: 0;
+												padding: 0;
+												border: 0;
+												font-size: 100%;
+												font: inherit;
+												vertical-align: baseline; }
+												
+article, aside, details, figcaption,
+figure, footer, header, hgroup, nav,
+section, summary							{ 	display: block; }
+
+audio, canvas, video						{ 	display: inline-block; }
+
+audio:not([controls])						{ 	display: none;
+												height: 0; }
+
+[hidden]									{ 	display: none; }
+
+body										{ 	line-height: 1.5; }
+
+blockquote, q								{ 	quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after							{ 	content: '';
+												content: none; }
+
+table 										{ 	border-collapse: collapse;
+												border-spacing: 0; }
+/* Global
+ *******************/
+
+body										{	background-color: #FFF;
+												font-family: "Open Sans", "Ubuntu", sans-serif, "Arial";
+												color: #333; }
+
+.float-left 								{ 	float: left; }
+.float-right   								{ 	float: right; }
+
+/* Fonts
+ *******************/
+
+h1, h2, h3, h4, h5, h6						{ 	color: #333;
+												font-family: "Titillium Web", "Ubuntu", "Open Sans", sans-serif;
+												margin-bottom: 20px; }
+
+h1 											{	font-size: 250%; }
+h2 											{	font-size: 200%; }
+h3 											{	font-size: 175%; }
+h4 											{	font-size: 150%; }
+h5 											{	font-size: 125%; }
+h6 											{	font-size: 110%; }
+small										{	font-size: 80%; }
+
+p											{	margin-bottom: 20px; }
+
+strong										{	font-weight: bold; }
+
+em											{	font-style: italic; }
+
+blockquote, blockquote p,  q, cite,
+code, kbd, pre, samp						{	font-family: "Courier New", monospace, serif;
+												font-size: 90%;
+												word-wrap: break-word;
+												background-color: #FCFCFC;
+												border: 1px solid #DDD;
+												border-radius: 5px;
+												display: block;
+												padding: 10px;
+												margin: 10px 20px; }
+												
+code, pre									{	white-space: pre-wrap;
+												padding: 0; }
+
+blockquote, blockquote p,  q, cite			{	font-style: italic; }
+
+.cite-inline								{	font-style: italic;
+												padding: 2px 5px;
+												display: inline;
+												margin: 0 5px;
+												border-radius: 2px; }
+
+a, a:visited								{	color: #5C3;
+												text-decoration: none; }
+												
+a:focus, a:hover							{	color: #F80; }
+
+input, textarea, select						{	font-size: 90%; }
+
+sub, sup									{	font-size: 80%;
+												line-height: 0;
+												position: relative; }
+												
+sup											{	top:-8px; }
+
+sub											{	bottom:-4px; }
+
+/* Goodies
+ *****************/
+												
+.left   	 								{ 	text-align: left; }
+.right    									{ 	text-align: right; }
+.center   									{ 	text-align: center; }
+.justify  									{ 	text-align: justify; }
+.normal										{	font-weight: normal; }
+.bold          								{	font-weight: bold; }
+.italic        								{	font-style: italic; }
+.underline     								{	text-decoration: underline; }
+.small										{	font-size: 80%; }
+.big										{	font-size: 120%; }
+
+/* Images
+ *******************/
+
+img.float-left								{	margin: 20px 20px 20px 0; }
+img.float-right								{	margin: 20px 0 20px 20px; }
+img.scale									{	max-width: 100%;
+												height: auto; }
+
+/* Forms
+ *******************/
+
+form, fieldset								{	margin-bottom: 20px;
+												padding-left: 20px; }
+
+input, textarea, select						{	border: 1px solid #ccc;
+												outline: none;
+												padding: 10px;
+												color: #666;
+												margin: 0;
+												display: block;
+												margin-bottom: 20px;
+												background: #FFF;
+												border-radius: 5px; }
+									
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="range"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+textarea									{	width: 280px;
+												max-width: 100%; }
+
+select										{	width: 300px;
+												padding: 5px 10px; }
+
+textarea									{	min-height: 100px; }
+
+label, legend								{	display: block;
+												font-weight: bold;
+												font-size: 110%;  }
+
+label span, legend span						{	font-weight: normal;
+												font-size: 110%;
+												color: #333; }
+
+input.alert, textarea.alert, select.alert	{	box-shadow: 0 0 5px #F44; }
+
+input.warning, textarea.warning,
+select.warning								{	box-shadow: 0 0 5px #F90; }
+
+input:focus, textarea:focus, select:focus	{	box-shadow: 0 0 5px #6F3; }
+
+form span									{	font-size: 80%;
+												font-weight: normal; }
+
+form span.input								{	display: inline;
+												color: #666;
+												margin-left: 5px;
+												margin-right: 10px;
+												font-size: 90%; }
+
+form span.alert								{	color: #C33;
+												display: block;
+												margin-left: 0;
+												margin-right: 0; }
+												
+form span.warning							{	color: #F80;
+												display: block;
+												margin-left: 0;
+												margin-right: 0; }
+
+form span.well								{	color: #5C3;
+												display: block;
+												margin-left: 0;
+												margin-right: 0; }
+
+input[type="radio"],
+input[type="checkbox"]						{	display: inline; }
+
+.form-btn									{	display: block; }
+
+/* Buttons
+ *******************/
+ 
+input[type="submit"], input[type="reset"],
+input[type="button"], button, a.btn			{	border: 1px solid #999;
+												outline: none;
+												padding: 10px 20px;
+												font-size: 120%;
+												font-weight: bold;
+												color: #FFF;
+												margin: 5px;
+												margin-bottom: 20px;
+												background-color: #5C3;
+												box-shadow: 0 0 3px #333;
+												display: inline;
+												border-radius: 5px; }
+
+input[type="submit"]:focus,
+input[type="submit"]:hover,
+input[type="reset"]:focus,
+input[type="reset"]:hover,
+input[type="button"]:focus,
+input[type="button"]:hover,
+button:focus, a:focus.btn,
+button:hover, a:hover.btn					{	border: 1px solid #BBB;
+												background-color: #5D3; }
+												
+input[type="submit"].small,
+input[type="reset"].small,
+input[type="button"].small,
+button.small, a.btn.small					{	padding: 5px 10px;
+												font-size: 100%; }
+
+input[type="submit"].large,
+input[type="reset"].large,
+input[type="button"].large,
+button.large, a.btn.large					{	padding: 20px 40px;
+												font-size: 160%; }
+
+a.btn, a:hover.btn							{	text-decoration: none; }
+
+input[type="submit"].alert,
+input[type="reset"].alert,
+input[type="button"].alert,
+button.alert, a.btn.alert					{	background-color: #C33; }
+
+input[type="submit"]:hover.alert,
+input[type="submit"]:focus.alert,
+input[type="reset"]:hover.alert,
+input[type="reset"]:focus.alert,
+input[type="button"]:hover.alert,
+input[type="button"]:focus.alert,
+button:hover.alert, a:hover.btn.alert,
+button:focus.alert, a:focus.btn.alert		{	background-color: #D22; }
+
+input[type="submit"].warning,
+input[type="reset"].warning,
+input[type="button"].warning,
+button.warning, a.btn.warning				{	background-color: #F80; }
+
+input[type="submit"]:hover.warning,
+input[type="submit"]:focus.warning,
+input[type="reset"]:hover.warning,
+input[type="reset"]:focus.warning,
+input[type="button"]:hover.warning,
+input[type="button"]:focus.warning,
+button:hover.warning, a:hover.btn.warning,
+button:focus.warning, a:focus.btn.warning	{	background-color: #F90; }
+
+/* Lists
+ ******************/
+
+ul, ol										{	margin-bottom: 20px;
+												margin-left: 20px; }
+
+ul											{	list-style: none; }
+
+ol											{	list-style: decimal;
+												padding-left: 20px;}
+
+ul ul, ul ol, ol ol, ol ul					{	margin: 2px 0 2px 20px; }
+
+ul ol, ol ol								{	padding-left: 40px; }
+
+li											{ 	margin-bottom: 2px; }
+
+/* Tags
+ ******************/
+
+span.tag									{	font-size: 80%;
+												color: #FFF;
+												background-color: #5C3;
+												padding: 2px 5px;
+												display: inline;
+												border-radius: 2px;
+												margin-left: 2px;
+												margin-right: 2px;
+												font-weight: bold;
+												text-shadow: 0 1px 2px #444; }
+
+span.tag.alert								{	background-color: #C33; }
+span.tag.warning							{	background-color: #F80; }
+
+span.tag a, span.tag a:hover,
+span.tag a:focus							{	color: #FFF; }
+
+/* Messages
+ ******************/
+
+.msg										{	border: 1px solid #BF8;
+												background-color: #EFB;
+												color: #333;
+												margin: 20px;
+												padding: 10px;
+												font-size: 80%;
+												border-radius: 5px; }
+												
+.msg.alert									{	border: 1px solid #F99;
+												background-color: #FBB; }
+												
+.msg.warning								{	border: 1px solid #FB3;
+												background-color: #FD6; }
+												
+.msg span.close:before						{	display: inline;
+												float: right;
+												margin: -5px 5px 0 15px;
+												content: '\00D7';
+												font-size: 150%;
+												font-weight: bold;
+												color: #5C3; }
+												
+.msg.alert span.close:before				{	color: #C33; }
+
+.msg.warning span.close:before				{	color: #F80; }
+
+/* Breadcrumbs
+ **********************/
+ul.crumbs									{	display: block;
+ 												padding: 10px;
+ 												margin-left: 0; }
+
+ul.crumbs li								{	margin: 0;
+												padding: 0 2px 0 0;
+												display: inline-block; }
+												
+ul.crumbs li a, ul.crumbs li span			{	font-size: 80%;
+												margin-right: 5px;
+												background: #EEE;
+ 												padding: 2px 5px;
+ 												border: 1px solid #DDD;
+ 												border-radius: 2px; }
+												
+ul.crumbs li.active a,
+ul.crumbs li.active span					{	font-weight: bold; }
+
+ul.crumbs li:after							{	content: ">";
+												color: #999; }
+												
+ul.crumbs li:last-child:after				{	content: ""; }
+
+/* Clearfix
+ *******************/
+
+.clearfix:before, .clearfix:after,
+.row:before, .row:after 					{	content: "\0020";
+												display: block;
+												overflow: hidden;
+												visibility: hidden;
+												width: 0;
+												height: 0; }
+
+.row:after,	.clearfix:after 				{	clear: both; }
+
+.row, .clearfix 							{	zoom: 1; }
+
+.clear 										{	clear: both;
+												display: block;
+												overflow: hidden;
+												visibility: hidden;
+												width: 0;
+												height: 0; }
+

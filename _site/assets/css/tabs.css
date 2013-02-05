@@ -1,0 +1,58 @@
+/* Tabs
+ **************/
+
+ul.tabs										{	display: block;
+												margin: 0 0 20px 0;
+												padding: 0;
+												border-bottom: solid 1px #EEE; }
+
+ul.tabs li									{	display: block;
+												width: auto;
+												height: 40px;
+												padding: 0;
+												float: left;
+												margin-bottom: 0; }
+
+ul.tabs li a								{	display: block;
+												text-decoration: none;
+												width: auto;
+												height: px;
+												padding: 0px 20px;
+												line-height: 39px;
+												border: 1px solid #FFF;
+												border-width: 1px 1px 0 1px;
+												margin: 0 3px 0 0;
+												background: #FFF;
+												font-size: 100%;
+												border-radius: 5px 5px 0 0; }
+												
+ul.tabs li a:hover							{	border: 1px solid #EEE;
+												border-width: 1px 1px 0 1px;
+												background: #EEE;
+												border-radius: 5px 5px 0 0; }
+												
+ul.tabs li.active a,
+ul.tabs li.active a:hover					{	background: #fff;
+												height: 40px;
+												position: relative;
+												border: 1px solid #EEE;
+												border-width: 1px 1px 0 1px;
+												margin: 0 3px 0 0; }
+
+ul.tabs li.active a							{	font-weight: bold; }
+												
+ul.tabs li:first-child.active a 			{	margin-left: 0; }
+
+ul.tabs li:first-child a 					{	border-width: 1px 1px 0 1px; }
+
+ul.tabs:before,
+ul.tabs:after								{	content: '\0020';
+												display: block;
+												overflow: hidden;
+												visibility: hidden;
+												width: 0;
+												height: 0; }
+
+ul.tabs:after								{	clear: both; }
+ul.tabs										{	zoom: 1; }											
+

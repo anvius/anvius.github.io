@@ -25,9 +25,7 @@
     
     <link rel="stylesheet" href="/assets/css/gridcss.css">
     
-    <!--[if lt IE 9]>
-      <script src=”http://html5shiv.googlecode.com/svn/trunk/html5.js”></script>
-    <![endif]–>
+    <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
 
   </head>
   <body>
@@ -36,16 +34,20 @@
     <![endif]-->
           
     <!-- Header -->
-    <header class="row">
-      <hgroup class="col12">
-        <h1><a href="/">Antonio (ant.onio.org)</a></h1>
-        <h6>Un blog m&aacute;s de internet</h6>
-      </hgroup>
-    </header>
+	<header class="row" id="header">
+	  <hgroup class="col12">
+		<h1 class="bold"><a href="/">Antonio Villamar&iacute;n</a></h1>
+		<h6>ant.onio.org | Un blog m&aacute;s de internet</h6>
+	  </hgroup>
+	</header>
     <!-- Section -->
-    <article class="row">
+    <article class="row" id="body">
+      <!-- Main article -->
+      <section class="col9">
+        {{ content }}
+      </section>
       <!-- Aside -->
-      <aside class="col4">
+      <aside class="col3">
         <nav>
           <h4>Menu One</h4>
           <ul>
@@ -53,18 +55,14 @@
           </ul>
         </nav>
       </aside>
-      <!-- Main article -->
-      <section class="col8">
-        {{ content }}
-      </section>
     </article>
     <!-- Footer -->
-    <footer class="row">
-      <div class="col12" id="copyright">
-        <small><center>&copy; 2013, <a href="http://ant.onio.org">Antonio Villamarin</a><br />
-        Powered by <a href="http://www.gridcss.com">Grid CSS</a> | <a href="http://github.com/mojombo/jekyll">Jekyll</a></center></small>
-      </div>
-    </footer>
+	<footer class="row" id="footer">
+	  <div class="col12" id="copyright">
+		<p class="small right">&copy; 2013, <a href="http://ant.onio.org">Antonio Villamarin</a><br />
+		Powered by <a href="http://www.gridcss.com">Grid CSS</a> | <a href="http://github.com/mojombo/jekyll">Jekyll</a></p>
+	  </div>
+	</footer>
 
     <!-- Load jQuery and Plugins -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>

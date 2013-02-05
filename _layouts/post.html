@@ -3,11 +3,9 @@ layout: gridcss
 ---
 
 				<header>
-					<h3>{{ page.date | date: "%d.%m.%Y" }} <a href="{{ post.url }}">{{ page.title }}</a></h3>
+					<h3><a href="{{ post.url }}">{{ page.title }}</a></h3>
+					<p class="small">{{ page.date | date: "%d.%m.%Y" }}</p>
 				</header>
 				<article>
 					{{ content }}
 				</article>
-				<footer>
-					<small class="right">-- Antonio Villamarin</small>
-				</footer>
