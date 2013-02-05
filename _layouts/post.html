@@ -1,10 +1,13 @@
 ---
-layout: layout
+layout: gridcss
 ---
 
-<div class="content">
-  <div id="post">
-    <h1>{{ post.title }}</h1>
-    {{ content }}
-  </div>
-</div>
+				<header>
+					<h3>{{ page.date | date: "%d.%m.%Y" }} <a href="{{ post.url }}">{{ page.title }}</a></h3>
+				</header>
+				<article>
+					{{ content }}
+				</article>
+				<footer>
+					<small class="right">-- Antonio Villamarin</small>
+				</footer>
