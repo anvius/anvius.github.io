@@ -5,7 +5,7 @@ description: Inauguro nuevo blog para antoniovillamarin.com, que pasa a ser ant.
 image: blog.jpg
 ---
 
-Este nuevo año 2013 ha traido consigo nuevo retos para mi.
+Este nuevo año 2013 ha traído consigo nuevo retos para mi.
 
 Después de darle muchas vueltas a cómo reiniciarme como empresario, he decidido empezar por lo personal. Primera prueba el blog.
 
@@ -23,9 +23,9 @@ Sin embargo, me he forzado a montarlo sobre Jekyll por una simple razón, y el q
 
 Así pues, todo el contenido de este blog, plantillas, etc... está disponible directamente en mi repositorio de [GitHub][4].
 
-Por otro lado, estoy mucho más volcado en los proyectos open source, y en estos momentos entoy desarrollando un CSS Grid que estará disponible en [Grid CSS][5]. En este proyecto, intento agrupar prácticamente todas las necesidades que suelo tener a la hora de diseñar un unos cuantos ficheros para su reutilización. Más adelante escribiré un post completo sbre este Grid.
+Por otro lado, estoy mucho más volcado en los proyectos Open Source, y en estos momentos estoy desarrollando un CSS Grid que estará disponible en [Grid CSS][5]. En este proyecto, intento agrupar prácticamente todas las necesidades que suelo tener a la hora de diseñar. Más adelante escribiré un post completo sobre este Grid.
 
-También he puesto disponible para todo el mundo (bajo licencia MIT) uno de algunos de los Goodies que voy a ir añadiendo a este Grid. Se trata de [JQuery Notify][6], un sencillo plugin para [jQuery][7] que permite crear un mensaje de aviso u oferta fijado a la parte superior de la ventana. También escribiré un pequeño post sobre esto.
+También he puesto disponible para todo el mundo (bajo licencia MIT) uno de algunos de los Goodies que voy a ir añadiendo. Se trata de [JQuery Notify][6], un sencillo plugin para [jQuery][7] que permite crear un mensaje de aviso u oferta fijado a la parte superior de la ventana. También escribiré un pequeño post sobre esto.
 
 Bienvenido de nuevo a mi blog.
 
