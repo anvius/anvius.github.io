@@ -1,0 +1,14 @@
+---
+layout: gridcss
+---
+		<section>
+			<header>
+				<h3><a href="{{ post.url }}">{{ page.title }}</a></h3>
+			</header>
+			<article>
+				{% if page.image != null %}
+					<img src="/assets/images/{{ page.image }}" class="float-left" />
+				{% endif %}
+				{{ content }}
+			</article>
+		</section>
