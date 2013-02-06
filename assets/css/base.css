@@ -254,6 +254,12 @@ input[type="button"].small,
 button.small, a.btn.small					{	padding: 5px 10px;
 												font-size: 100%; }
 
+input[type="submit"].very-small,
+input[type="reset"].very-small,
+input[type="button"].very-small,
+button.very-small, a.btn.very-small			{	padding: 2px 5px;
+												font-size: 80%; }
+
 input[type="submit"].large,
 input[type="reset"].large,
 input[type="button"].large,

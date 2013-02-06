@@ -6,4 +6,8 @@ title: "Antonio | ant.onio.org"
 				<header>
 					<h3>{{ post.date | date: "%d.%m.%Y" }} <a href="{{ post.url }}">{{ post.title }}</a></h3>
 				</header>
+				<article>
+					<p>{{ post.content | truncatewords : '50' }} <span class="tag"><a href="{{ post.url }}" class="">Continuar leyendo...</a></span></p>
+					
+				</article>
 				{% endfor %}
