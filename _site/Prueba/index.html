@@ -42,17 +42,16 @@
 	</header>
     <!-- Section -->
     <article class="row" id="body">
-		<div class="col12">
-			<div id="message">Este blog está en preparación y los post incluidos en él no corresponden al contenido real del mismo, disculpa las molestias.</div>
-		</div>
-      <!-- Main article -->
-      <section class="col9">
-        				<header>
-					<h3><a href="">Post de prueba</a></h3>
-					<p class="small">05.02.2013</p>
-				</header>
-				<article>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at nisi sit amet elit pellentesque mollis sit amet at lectus. Vestibulum libero leo, egestas et vulputate at, dignissim sit amet justo. Integer commodo felis ac urna auctor eget iaculis purus egestas. Proin eu arcu libero. Sed suscipit, justo nec blandit dictum, eros mauris elementum leo, at bibendum diam lacus vel nunc. Nulla non nibh odio. Aenean tincidunt eros at velit molestie sodales luctus nulla molestie. Fusce in dui et massa venenatis lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempor, orci sit amet suscipit consectetur, nisl elit pellentesque mauris, sit amet tincidunt risus erat non augue. Donec eget metus id est fringilla egestas. Nullam pellentesque imperdiet rhoncus. Fusce in leo arcu. Cras condimentum congue nisi quis laoreet. Nam eu commodo mi. Duis quis neque id dui venenatis ultrices.</p>
+     <!-- Main article -->
+      <div class="col9">
+        		<section>
+			<header>
+				<h3><a href="">Post de prueba</a></h3>
+				<p class="small">05.02.2013</p>
+			</header>
+			<article>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at nisi sit amet elit pellentesque mollis sit amet at lectus. Vestibulum libero leo, egestas et vulputate at, dignissim sit amet justo. Integer commodo felis ac urna auctor eget iaculis purus egestas. Proin eu arcu libero. Sed suscipit, justo nec blandit dictum, eros mauris elementum leo, at bibendum diam lacus vel nunc. Nulla non nibh odio. Aenean tincidunt eros at velit molestie sodales luctus nulla molestie. Fusce in dui et massa venenatis lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tempor, orci sit amet suscipit consectetur, nisl elit pellentesque mauris, sit amet tincidunt risus erat non augue. Donec eget metus id est fringilla egestas. Nullam pellentesque imperdiet rhoncus. Fusce in leo arcu. Cras condimentum congue nisi quis laoreet. Nam eu commodo mi. Duis quis neque id dui venenatis ultrices.</p>
 
 <p>Fusce non tincidunt turpis. Vivamus massa ante, malesuada quis sollicitudin ut, sollicitudin sed lectus. Sed eros metus, cursus quis mollis et, convallis et est. In non libero ipsum. Vestibulum ac felis et elit viverra porttitor a eu est. Praesent elit nulla, fermentum eget accumsan vitae, dignissim quis orci. Pellentesque hendrerit, nisl a venenatis fermentum, purus arcu pharetra mi, et fringilla tellus felis sed urna. Duis porttitor suscipit velit ut pellentesque.</p>
 
@@ -72,15 +71,21 @@
 
 <p>Sed facilisis sollicitudin magna, at elementum ligula viverra in. Phasellus eleifend ante in magna molestie convallis. Etiam tincidunt urna non sapien pellentesque ac cursus metus dapibus. Donec nisi nunc, auctor eu suscipit id, congue sit amet arcu. Donec mi nisl, tempor porta porta in, tristique ac urna. Sed eu urna turpis, a volutpat erat. Cras sagittis porta lacus, quis lacinia ante ultricies ac. Cras ac sollicitudin ligula. Praesent auctor euismod nisi sollicitudin consectetur. Sed sollicitudin euismod velit in laoreet. Duis at metus sit amet elit volutpat consequat eu et erat.</p>
 
-				</article>
+			</article>
+		</section>
 
-      </section>
+      </div>
       <!-- Aside -->
       <aside class="col3">
         <nav>
-          <h4>Menu One</h4>
+          <h4>Proyectos</h4>
           <ul>
-            <li><a href="#">Link</a></li>
+            <li><a href="//www.gridcss.com">Grid CSS</a></li>
+            <li><a href="//notify.gridcss.com">JQuery Notify</a></li>
+          </ul>
+          <h4>Info</h4>
+          <ul>
+            <li><a href="/sobre-mi.html">Sobre mí</a></li>
           </ul>
         </nav>
       </aside>
@@ -88,8 +93,7 @@
     <!-- Footer -->
 	<footer class="row" id="footer">
 	  <div class="col12" id="copyright">
-		<p class="small right">&copy; 2013, <a href="http://ant.onio.org">Antonio Villamarin</a><br />
-		Powered by <a href="http://www.gridcss.com">Grid CSS</a> | <a href="http://github.com/mojombo/jekyll">Jekyll</a></p>
+		<p class="small center">&copy; 2013, <a href="http://ant.onio.org">Antonio Villamarin</a> | Powered by <a href="http://www.gridcss.com">Grid CSS</a> | <a href="http://github.com/mojombo/jekyll">Jekyll</a></p>
 	  </div>
 	</footer>
 
@@ -99,11 +103,6 @@
       window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.0.min.js"><\/script>');
     </script>
     <script src="/assets/js/gridcss.js"></script>
-    <script>
-		$(document).ready(function () {
-			$('#message').notify({close:true,color:'#FFF',background:'#666'});
-		});
-    </script>
   </body>
 
 </html>

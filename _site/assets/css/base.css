@@ -103,7 +103,7 @@ blockquote, blockquote p,  q, cite			{	font-style: italic; }
 												margin: 0 5px;
 												border-radius: 2px; }
 
-a, a:visited								{	color: #5C3;
+a											{	color: #5C3;
 												text-decoration: none; }
 												
 a:focus, a:hover							{	color: #F80; }
@@ -131,6 +131,7 @@ sub											{	bottom:-4px; }
 .underline     								{	text-decoration: underline; }
 .small										{	font-size: 80%; }
 .big										{	font-size: 120%; }
+.wide										{	width: 100%; }
 
 /* Images
  *******************/
@@ -318,7 +319,7 @@ li											{ 	margin-bottom: 2px; }
 
 span.tag									{	font-size: 80%;
 												color: #FFF;
-												background-color: #5C3;
+												background-color: #48F;
 												padding: 2px 5px;
 												display: inline;
 												border-radius: 2px;
@@ -327,6 +328,7 @@ span.tag									{	font-size: 80%;
 												font-weight: bold;
 												text-shadow: 0 1px 2px #444; }
 
+span.tag.ok									{	background-color: #5C3; }
 span.tag.alert								{	background-color: #C33; }
 span.tag.warning							{	background-color: #F80; }
 
@@ -336,13 +338,16 @@ span.tag a:focus							{	color: #FFF; }
 /* Messages
  ******************/
 
-.msg										{	border: 1px solid #BF8;
-												background-color: #EFB;
+.msg										{	border: 1px solid #8CF;
+												background-color: #CEF;
 												color: #333;
-												margin: 20px;
+												margin: 20px 0;
 												padding: 10px;
 												font-size: 80%;
 												border-radius: 5px; }
+												
+.msg.ok										{	border: 1px solid #BF8;
+												background-color: #EFB; }
 												
 .msg.alert									{	border: 1px solid #F99;
 												background-color: #FBB; }
@@ -350,17 +355,19 @@ span.tag a:focus							{	color: #FFF; }
 .msg.warning								{	border: 1px solid #FB3;
 												background-color: #FD6; }
 												
-.msg span.close:before						{	display: inline;
+.msg .close:before							{	display: inline;
 												float: right;
 												margin: -5px 5px 0 15px;
 												content: '\00D7';
 												font-size: 150%;
 												font-weight: bold;
-												color: #5C3; }
+												color: #48F; }
 												
-.msg.alert span.close:before				{	color: #C33; }
+.msg.ok .close:before						{	color: #5C3; }
 
-.msg.warning span.close:before				{	color: #F80; }
+.msg.alert .close:before					{	color: #C33; }
+
+.msg.warning .close:before					{	color: #F80; }
 
 /* Breadcrumbs
  **********************/

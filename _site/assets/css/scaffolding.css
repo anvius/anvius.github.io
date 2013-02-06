@@ -84,8 +84,8 @@
 
 @media only screen and (max-width: 767px) {
 
-	.row									{ 	width: 100%;
-												margin:0;
+	.row									{ 	width: 95%;
+												margin: 0 auto;
 												padding: 0;  }
 
 	.col1, .col2, .col3, .col4,

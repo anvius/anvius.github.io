@@ -1,11 +1,15 @@
 ---
 layout: gridcss
 ---
-
-				<header>
-					<h3><a href="{{ post.url }}">{{ page.title }}</a></h3>
-					<p class="small">{{ page.date | date: "%d.%m.%Y" }}</p>
-				</header>
-				<article>
-					{{ content }}
-				</article>
+		<section>
+			<header>
+				<h3><a href="{{ post.url }}">{{ page.title }}</a></h3>
+				<p class="small">{{ page.date | date: "%d.%m.%Y" }}</p>
+			</header>
+			<article>
+				{% if page.image != null %}
+					<img src="{{ page.image }}" class="float-right" />
+				{% endif %}
+				{{ content }}
+			</article>
+		</section>

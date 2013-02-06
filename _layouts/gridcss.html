@@ -8,8 +8,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ page.title }} :: Antonio -- Un blog más de Internet.</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="{{ page.tags }}">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="keywords" content="{{ page.keywords }}">
     <meta name="viewport" content="width=device-width">
     
     <!-- If you want geolocalizate the website>
@@ -42,19 +42,21 @@
 	</header>
     <!-- Section -->
     <article class="row" id="body">
-		<div class="col12">
-			<div id="message">Este blog está en preparación y los post incluidos en él no corresponden al contenido real del mismo, disculpa las molestias.</div>
-		</div>
-      <!-- Main article -->
-      <section class="col9">
+     <!-- Main article -->
+      <div class="col9">
         {{ content }}
-      </section>
+      </div>
       <!-- Aside -->
       <aside class="col3">
         <nav>
-          <h4>Menu One</h4>
+          <h4>Proyectos</h4>
           <ul>
-            <li><a href="#">Link</a></li>
+            <li><a href="//www.gridcss.com">Grid CSS</a></li>
+            <li><a href="//notify.gridcss.com">JQuery Notify</a></li>
+          </ul>
+          <h4>Info</h4>
+          <ul>
+            <li><a href="/sobre-mi.html">Sobre mí</a></li>
           </ul>
         </nav>
       </aside>
@@ -62,8 +64,7 @@
     <!-- Footer -->
 	<footer class="row" id="footer">
 	  <div class="col12" id="copyright">
-		<p class="small right">&copy; 2013, <a href="http://ant.onio.org">Antonio Villamarin</a><br />
-		Powered by <a href="http://www.gridcss.com">Grid CSS</a> | <a href="http://github.com/mojombo/jekyll">Jekyll</a></p>
+		<p class="small center">&copy; 2013, <a href="http://ant.onio.org">Antonio Villamarin</a> | Powered by <a href="http://www.gridcss.com">Grid CSS</a> | <a href="http://github.com/mojombo/jekyll">Jekyll</a></p>
 	  </div>
 	</footer>
 
@@ -73,11 +74,6 @@
       window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.0.min.js"><\/script>');
     </script>
     <script src="/assets/js/gridcss.js"></script>
-    <script>
-		$(document).ready(function () {
-			$('#message').notify({close:true,color:'#FFF',background:'#666'});
-		});
-    </script>
   </body>
 
 </html>

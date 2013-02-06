@@ -1,13 +1,20 @@
 ---
 layout: gridcss
 title: "Antonio | ant.onio.org"
+keywords: "Antonio, Antonio Villamarin, Antonio Villamarin Bajo, Zeura, Zeura Netowrk"
+description: "Blog de Antonio Villamarín, un blog más de internet."
+message: "Este blog está en obras, disculpa las molestias."
 ---
-				{% for post in site.posts %}
+			<div class="msg warning"><span class="close"></span>{{ page.message }}</div>
+			{% for post in site.posts %}
+			<section>
 				<header>
-					<h3>{{ post.date | date: "%d.%m.%Y" }} <a href="{{ post.url }}">{{ post.title }}</a></h3>
+					<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+					<p class="small">{{ post.date | date: "%d.%m.%Y" }}</p>
 				</header>
 				<article>
-					<p>{{ post.content | truncatewords : '50' }} <span class="tag"><a href="{{ post.url }}" class="">Continuar leyendo...</a></span></p>
-					
+					<p>{{ post.content | truncatewords : '50' }}</p>
+					<p><span class="tag"><a href="{{ post.url }}" class="">Continuar leyendo...</a></span></p>				
 				</article>
-				{% endfor %}
+			</section>	
+			{% endfor %}

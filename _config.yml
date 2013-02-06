@@ -1,4 +1,6 @@
 auto: true
 markdown: rdiscount
+lsi: true
 permalink: /:title
 rdiscount extensions: [smart]
+paginate: 10
