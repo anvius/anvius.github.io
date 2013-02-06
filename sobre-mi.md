@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Sobre mi
-permalink: /:title.html
 ---
 Más que sobre mí, sobre este blog.
 
