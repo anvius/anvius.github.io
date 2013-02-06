@@ -1,0 +1,28 @@
+---
+layout: post
+title: Tasación de un dominio por su extensión
+image: books.jpg
+---
+
+Dado que todavía el mercado de los dominios no está maduro del todo, de vez en cuando me sorprenden algunas precios de ventas realizadas, como es el último caso de insure.com vendido por 16 millones de dólares.
+
+Creo que es indiscutible que la extensión del dominio es una parte muy importante del valor del mismo dado que el internauta está más familiarizado con unas que con otras. Esto varía según el país dando bastante valor a los ccTLD correspondientes, aunque estos mismos no tengan prácticamente repercusión en el país vecino. Cojamos por ejemplo los dominios .de de alemania, que son el segundo ccTLD más extendido del mundo detrás de los .cn. En alemania tienen un éxito increible, junto a otros como los .eu, y sin lugar a dudas los gTLDs .com, .net, .org, etc...
+
+Esto me hace plantearme qué índice de valor le da la extensión al mismo dominio, por poner un ejemplo, una palabra genérica alemana de grandes mercados como viajes, coches, seguros, etc... ¿Cuáles serían las diferencias de precios entre el .com, el .net, el .org, y el .de? Viendo la cantidad de dominios vendidos a nivel mundial por extensiones gTLDs según webhosting.info
+
+- COM - 80,786,183
+- NET - 12,235,143
+- ORG - 7,708,919
+- INFO - 5,015,951
+- BIZ - 1,987,874
+
+Los dominios .DE tienen una cantidad de registros de aproximadamente 10 millones de registros.
+
+¿Cuál valdría más? ¿Corresponderían a la cantidad de dominios registrados?
+
+	KeywordEnAleman.COM
+	KeywordEnAleman.NET
+	KeywordEnAleman.ORG
+	KeywordEnAleman.INFO
+	KeywordEnAleman.BIZ
+	KeywordEnAleman.DE
