@@ -1,6 +1,6 @@
 auto: true
 markdown: rdiscount
 lsi: true
-permalink: /:year/:month/:title
+permalink: /:year/:month/:title.html
 rdiscount extensions: [smart]
 title: El blog de Antonio
