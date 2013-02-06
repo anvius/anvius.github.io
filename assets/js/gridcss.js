@@ -7,10 +7,16 @@
 // JQuery Notify by Antonio Villamarin <http://notify.gridcss.com> : MIT
 (function(e){jQuery.fn.extend({notify:function(e){this.options=$.extend({active:true,close:false,color:"#444",background:"#FF9"},e);var t=this.options.close;$(this).hide();$("body").append('<span class="notify-arrow"></span>');$(this).prepend('<span class="notify-close"></span>');$(this).addClass("notify-message");if(this.options.close){$("head").append("<style>.notify-arrow:before{display:block;font-size:20px;padding:5px 15px;content:'\\25BE';color:"+this.options.color+";}"+".notify-close:before{display:block;font-size:24px;float:right;margin:-7px -5px -7px 20px;content:'\\00D7';color:"+this.options.color+";}</style>")}else{$("head").append("<style>.notify-arrow:before{display:block;font-size:20px;padding:5px 15px;content:'\\25BE';color:"+this.options.color+";}"+".notify-close:before{display:block;font-size:20px;float:right;margin:-7px -5px -7px 20px;content:'\\25B4';color:"+this.options.color+";}</style>")}$(".notify-message").css({"background-color":this.options.background,color:this.options.color,"z-index":"101",position:"fixed",top:"0",right:"0",left:"0",padding:"10px 20px",overflow:"hidden","box-shadow":"0 0 5px #444",border:"0","border-bottom":"2px solid #888",opacity:".9"});$(".notify-arrow").css({"background-color":this.options.background,color:this.options.color,"z-index":"101",position:"fixed",top:"0",right:"0",overflow:"hidden","box-shadow":"0 0 5px #444",opacity:".9",border:"0 0 2px 2px solid #888","border-radius":"0 0 0 5px"});if(this.options.active){$(".notify-message").delay(1e3).slideDown("slow");$(".notify-arrow").hide()}else{$(".notify-message").hide();if(!this.options.close){$(".notify-arrow").delay(1e3).slideDown("slow")}else{$("notify-arrow").hide()}}$(".notify-arrow").click(function(){$(this).slideUp("slow");$(".notify-message").delay(500).slideDown("slow")});$(".notify-close").click(function(){$(".notify-message").slideUp("slow");if(!t){$(".notify-arrow").delay(500).slideDown("slow")}})}})})(jQuery);
 
-
 $(document).ready(function () {
 	$('textarea').elastic();
 	$('.tabs').tabify();
 	$('.notify-message').notify();
+	$('.close').click( function(){
+		$(this).parent('.msg').toggleClass('hide').fadeOut('slow');
+		$(this).parent('.deal').toggleClass('hide').slideUp('slow');
+		if( $(this).parent('.deal').hasClass('hide') ) {
+			$('.deal-arrow').delay(500).slideDown('slow');
+		}
+	});
 });
 

@@ -42,6 +42,9 @@
 	</header>
     <!-- Section -->
     <article class="row" id="body">
+		<div class="col12">
+			<div id="message">Este blog está en preparación y los post incluidos en él no corresponden al contenido real del mismo, disculpa las molestias.</div>
+		</div>
       <!-- Main article -->
       <section class="col9">
         {{ content }}
@@ -69,8 +72,12 @@
     <script>
       window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.0.min.js"><\/script>');
     </script>
-    <script src="/assets/js/gridcss.jquery.js"></script>
-
+    <script src="/assets/js/gridcss.js"></script>
+    <script>
+		$(document).ready(function () {
+			$('#message').notify({close:true,color:'#FFF',background:'#666'});
+		});
+    </script>
   </body>
 
 </html>
