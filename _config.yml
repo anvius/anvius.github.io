@@ -3,4 +3,4 @@ markdown: rdiscount
 lsi: true
 permalink: /:title
 rdiscount extensions: [smart]
-paginate: 10
+title: El blog de Antonio
