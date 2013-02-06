@@ -91,6 +91,8 @@ code, kbd, pre, samp						{	font-family: "Courier New", monospace, serif;
 												display: block;
 												padding: 10px;
 												margin: 10px 20px; }
+											
+pre code									{	border: 0; }
 												
 code, pre									{	white-space: pre-wrap;
 												padding: 0; }
@@ -139,6 +141,8 @@ sub											{	bottom:-4px; }
 img.float-left								{	margin: 20px 20px 20px 0; }
 img.float-right								{	margin: 20px 0 20px 20px; }
 img.scale									{	max-width: 100%;
+												height: auto; }
+img.thumb									{	width: 200px;
 												height: auto; }
 
 /* Forms

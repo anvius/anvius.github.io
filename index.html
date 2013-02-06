@@ -13,7 +13,10 @@ message: "Este blog está en obras, disculpa las molestias."
 					<p class="small">{{ post.date | date: "%d.%m.%Y" }}</p>
 				</header>
 				<article>
-					<p>{{ post.content | truncatewords : '50' }}</p>
+					{% if post.image != null %}
+						<img src="/assets/images/{{ post.image }}" class="float-left thumb" />
+					{% endif %}
+					{{ post.content | truncatewords : '50' }}
 					<p><span class="tag"><a href="{{ post.url }}" class="">Continuar leyendo...</a></span></p>				
 				</article>
 			</section>	
