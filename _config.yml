@@ -10,7 +10,7 @@ rdiscount:
 
 # Configuration required for some pages
 
-domain: ant.onio.org
+url: ant.onio.org
 title: El blog de Antonio
 author: Antonio Villamarin
 # email: me@example.com
