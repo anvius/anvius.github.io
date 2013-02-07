@@ -17,23 +17,17 @@ author: Antonio Villamarin
 
 # configuration for ehancements,
 
-analytics:
-    - account: UA-3709753-8
+analytics_account: UA-3709753-8
 
-github:
-    - account: zeura
+github_account: zeura
 
-facebook:
-    - account: villamarin
+facebook_account: villamarin
 
-linkedin:
-    - account: villamarin
+linkedin_account: villamarin
 
-twitter:
-    - account: antvillamarin
+twitter_account: antvillamarin
 
-plus:
-    - account: 114899077462139891523
+plus_account: 114899077462139891523
 
 
 
