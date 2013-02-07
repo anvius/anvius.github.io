@@ -9,26 +9,26 @@ JQuery Notify es un plugin que permite crear un mensaje de alerta, información 
 
 Este plugin no necesita añadir CSS especial ya que viene incluido en el propio archivo js. En cualquier caso, si quisieras modificar el aspecto del mensaje existen dos opciones.
 
-La primera de ellas se trata de añadir en la misma llamada al plugin el color de fondo y el del texto. La segunda es que puedes añadir una configuración CSS sobre la clase ".notify-message".
+La primera de ellas se trata de añadir en la misma llamada al plugin el color de fondo y el del texto. La segunda es que puedes añadir una configuración CSS sobre la clase *.notify-message*.
 
 Ahora vamos a ver cómo implementarlo.
 
 Primero debemos añadir el mensaje que queremos que aparezca en el notify.
 
 ```
-&lt;div id="anyIDtag">Mensaje de notificación&lt;/div>
+	&lt;div id="anyIDtag">Mensaje de notificación&lt;/div>
 ```
 
-Ahora añadimos los ficheros js, que deberían ir al final del html, justo antes de ```body>```.
+Ahora añadimos los ficheros js, que deberían ir al final del html, justo antes de "&lt;body>".
 
 ```
-&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js">&lt;/script>
-&lt;script src="notify.jquery.min.js">&lt;/script>
-&lt;script>
-	$(document).ready(function(){
-		$('#anyIDtag').notify();
-	});
-&lt;/script>
+	&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js">&lt;/script>
+	&lt;script src="notify.jquery.min.js">&lt;/script>
+	&lt;script>
+		$(document).ready(function(){
+			$('#anyIDtag').notify();
+		});
+	&lt;/script>
 ```
 
 Con esto ya tendríamos funcionando el plugin al cargar la página.
@@ -37,33 +37,33 @@ Vamos ahora con las opciones.
 
 El plugin incorpora cuatro posibles opciones a la hora de su carga, que son: color, background, close, active.
 
-**color**: Se usa para especificar el color del texto que aparecerá en el mensaje. Se especifica como ```color: "#FFF"```
+**color**: Se usa para especificar el color del texto que aparecerá en el mensaje. Se especifica como **color: "#FFF"**
 
 **background**: Se trata del color de fondo del mensaje. El color en formato hexadecimal.
 
-**close**: Por defecto es ```false``` y se usa para indicar si queremos que aparezca un "aspa" para su cierre definitivo o un "flecha" para su ocultación temporal.
+**close**: Por defecto es **false** y se usa para indicar si queremos que aparezca un *aspa* para su cierre definitivo o un *flecha* para su ocultación temporal.
 
 **active**: Se emplea para indicar si el mensaje debe aparecer activo o por el contrario debe aparece la flecha para desplegar el mensaje. por defecto es activo.
 
 Ejemplo:
 
 ```
-&lt;script>
-	$(document).ready(function(){
-		$('#anyIDtag').notify({ // Optional parameters. Default values.
-			active: true, // Muestra el mensaje.
-			close: true, // Muestra el aspa para cerrar.
-			color: "#444", // Color de la fuente gris al 80%.
-			background: "#FF9" // Color de fondo amarillo suave.
+	&lt;script>
+		$(document).ready(function(){
+			$('#anyIDtag').notify({ // Optional parameters. Default values.
+				active: true, // Muestra el mensaje.
+				close: true, // Muestra el aspa para cerrar.
+				color: "#444", // Color de la fuente gris al 80%.
+				background: "#FF9" // Color de fondo amarillo suave.
+			});
 		});
-	});
-&lt;/script>
+	&lt;/script>
 ```
 
-Como decía al principio, puedes cambiar el formato del mensaje definiendo en CSS la clase ".notify-message" como por ejemplo:
+Como decía al principio, puedes cambiar el formato del mensaje definiendo en CSS la clase *.notify-message* como por ejemplo:
 
 ```
-.notify-message { font-size: 16px; }
+	.notify-message { font-size: 16px; }
 ```
 
 Hay que tener en cuenta que el plugin, coge por defecto la configuración de fuente que esté definida en la página, tamaño, negrita, etc...
