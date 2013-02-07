@@ -19,7 +19,7 @@ Primero debemos añadir el mensaje que queremos que aparezca en el notify.
 <div id="anyIDtag">Mensaje de notificación</div>
 {% endhighlight %}
 
-Ahora añadimos los ficheros js, que deberían ir al final del html, justo antes de "<body>".
+Ahora añadimos los ficheros js, que deberían ir al final del html, justo antes de "&lt;body>".
 
 {% highlight html %}
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
