@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>El blog de Antonio</title>
+    <link>http://ant.onio.org/</link>
+    <atom:link href="http://example.com/rss.xml" rel="self" type="application/rss+xml" />
+    <description>ant.onio.org : El blog de Antonio</description>
+    <language>es_es</language>
+    <pubDate>Thu, 07 Feb 2013 17:55:19 +0100</pubDate>
+    <lastBuildDate>Thu, 07 Feb 2013 17:55:19 +0100</lastBuildDate>
+
+    
+    <item>
+      <title>Notify: plugin para JQuery</title>
+      <link>http://ant.onio.org/2013/02/notify-plugin-para-jquery.html</link>
+      <pubDate>Thu, 07 Feb 2013 00:00:00 +0100</pubDate>
+      <author>Antonio Villamarin</author>
+      <guid>http://ant.onio.org/2013/02/notify-plugin-para-jquery</guid>
+      <description>&lt;p&gt;JQuery Notify es un plugin que permite crear un mensaje de alerta, información u oferta desplegable en la parte superior de la pantalla cuando el usuario está viendo tu web. Es un componente de &lt;a href=&quot;//www.gridcss.com&quot;&gt;Grid CSS&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Este plugin no necesita añadir CSS especial ya que viene incluido en el propio archivo js. En cualquier caso, si quisieras modificar el aspecto del mensaje existen dos opciones.&lt;/p&gt; &lt;p&gt;La primera de ellas se trata de añadir en la misma llamada al plugin el color de fondo y el del texto. La segunda es que puedes añadir una configuración CSS sobre la clase... [ &lt;a href='http:///2013/02/notify-plugin-para-jquery.html'&gt;Continuar leyendo...&lt;/a&gt; ]</description>
+    </item>
+    
+    <item>
+      <title>Nuevos tiempos nuevo blog</title>
+      <link>http://ant.onio.org/2013/02/nuevos-tiempos-nuevo-blog.html</link>
+      <pubDate>Fri, 01 Feb 2013 00:00:00 +0100</pubDate>
+      <author>Antonio Villamarin</author>
+      <guid>http://ant.onio.org/2013/02/nuevos-tiempos-nuevo-blog</guid>
+      <description>&lt;p&gt;Este nuevo año 2013 ha traído consigo nuevo retos para mi.&lt;/p&gt; &lt;p&gt;Después de darle muchas vueltas a cómo reiniciarme como empresario, he decidido empezar por lo personal. Primera prueba el blog.&lt;/p&gt; &lt;p&gt;En este nuevo blog intentaré mostrar todas mis inquietudes, principalmente sobre internet, aunando los esfuerzos que realizaba en otros blogs, aquí.&lt;/p&gt; &lt;p&gt;El nombre del dominio lo he cambiado (antes era antoniovillamarin.com) por una simple razón de longitud y a pesar de ser un hack domain, me parece que me estoy empezando a acostumbrar.&lt;/p&gt; &lt;p&gt;En cuanto al antiguo blog de la empresa quedará supeditado también a éste, personalizando un poco... [ &lt;a href='http:///2013/02/nuevos-tiempos-nuevo-blog.html'&gt;Continuar leyendo...&lt;/a&gt; ]</description>
+    </item>
+    
+    <item>
+      <title>25 años del primer dominio de internet</title>
+      <link>http://ant.onio.org/2010/03/25-anos-del-primer-dominio-de-internet.html</link>
+      <pubDate>Mon, 01 Mar 2010 00:00:00 +0100</pubDate>
+      <author>Antonio Villamarin</author>
+      <guid>http://ant.onio.org/2010/03/25-anos-del-primer-dominio-de-internet</guid>
+      <description>&lt;p&gt;Symbolics.com fue el primer dominio que se registró, un 15 de Marzo de 1985. Muchas cosas han pasado desde que la empresa Symbolics de boston (Masachussets) adquiriera este dominio, entre otras cosas, este mismo dominio cambio de manos hace tan solo un año.&lt;/p&gt; &lt;p&gt;En la actualidad existen casi 200 millones de nombre de dominios registrados en más de 700 extensiones diferentes.&lt;/p&gt; &lt;p&gt;Cuando el primer dominio fue vendido, éstos no tenían coste alguno, hasta 1992 cuando apareció Network solutions para venderlos a un precio de 100$ anuales.&lt;/p&gt; &lt;p&gt;Prácticamente, hasta 1991 no había dominios registrados, incluso la mismísima Microsoft adquirió el suyo... [ &lt;a href='http:///2010/03/25-anos-del-primer-dominio-de-internet.html'&gt;Continuar leyendo...&lt;/a&gt; ]</description>
+    </item>
+    
+    <item>
+      <title>Tasación de un dominio por su extensión</title>
+      <link>http://ant.onio.org/2009/10/tasacion-de-dominios-por-extension-md.html</link>
+      <pubDate>Thu, 15 Oct 2009 00:00:00 +0200</pubDate>
+      <author>Antonio Villamarin</author>
+      <guid>http://ant.onio.org/2009/10/tasacion-de-dominios-por-extension-md</guid>
+      <description>&lt;p&gt;Dado que todavía el mercado de los dominios no está maduro del todo, de vez en cuando me sorprenden algunas precios de ventas realizadas, como es el último caso de insure.com vendido por 16 millones de dólares.&lt;/p&gt; &lt;p&gt;Creo que es indiscutible que la extensión del dominio es una parte muy importante del valor del mismo dado que el internauta está más familiarizado con unas que con otras. Esto varía según el país dando bastante valor a los ccTLD correspondientes, aunque estos mismos no tengan prácticamente repercusión en el país vecino. Cojamos por ejemplo los dominios .de de alemania, que son... [ &lt;a href='http:///2009/10/tasacion-de-dominios-por-extension-md.html'&gt;Continuar leyendo...&lt;/a&gt; ]</description>
+    </item>
+    
+    <item>
+      <title>Manifiesto de Inversores en Dominio de la asociación</title>
+      <link>http://ant.onio.org/2009/05/manifiesto-de-inversores-en-dominio-de-la-asociacion.html</link>
+      <pubDate>Fri, 29 May 2009 00:00:00 +0200</pubDate>
+      <author>Antonio Villamarin</author>
+      <guid>http://ant.onio.org/2009/05/manifiesto-de-inversores-en-dominio-de-la-asociacion</guid>
+      <description>&lt;p&gt;La asociación de Inversores en Nombres de Dominio ha desarrollado un manifiesto colaborativo sobre las buenas prácticas de Domainer que ha ido incorporando las ideas aportadas en el hilo de demene donde se propuso el mismo, y ha estado absorviendo ideas desde Julio de 2008.&lt;/p&gt; &lt;p&gt;Aunque las ideas principales ya están expresadas, es posible que desarrollemos una nueva versión que facilite su lectura lo mejor posible.&lt;/p&gt; &lt;h3&gt;Manifiesto del Inversor en Dominios de habla hispana. (Versión 0.2)&lt;/h3&gt; &lt;ol&gt; &lt;li&gt;&lt;p&gt;&lt;strong&gt;Objeto del documento.&lt;/strong&gt;&lt;/p&gt; &lt;p&gt; Este documento describe las características del mercado de inversión en dominios y las responsabilidades de los firmantes y suscritos... [ &lt;a href='http:///2009/05/manifiesto-de-inversores-en-dominio-de-la-asociacion.html'&gt;Continuar leyendo...&lt;/a&gt; ]</description>
+    </item>
+    
+
+  </channel>
+</rss>
