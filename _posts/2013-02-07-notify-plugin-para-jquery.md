@@ -62,7 +62,7 @@ Como decía al principio, puedes cambiar el formato del mensaje definiendo en CS
 
 Hay que tener en cuenta que el plugin, coge por defecto la configuración de fuente que esté definida en la página, tamaño, negrita, etc...
 
-Página web: [Web][2] - [Descarga][3] - [Código fuente en GitHub][4]
+Más información: [Web][2] - [Descarga][3] - [Código fuente en GitHub][4]
 
 [1]: //www.gridcss.com
 [2]: //notify.gridcss.com
