@@ -30,6 +30,8 @@ a:hover, a:focus						{	color: #26F; }
 											
 #header h1								{	padding: 0;
 											margin: 0 }
+											
+#header img								{	margin-top: 10px; }
 
 #body									{	margin-top: 10px;
 											margin-bottom: 10px; }

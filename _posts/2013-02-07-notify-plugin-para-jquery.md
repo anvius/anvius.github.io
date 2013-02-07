@@ -15,18 +15,21 @@ Ahora vamos a ver cómo implementarlo.
 
 Primero debemos añadir el mensaje que queremos que aparezca en el notify.
 
-	<div id="anyIDtag">Mensaje de notificación</div>
+{% highlight html %}
+<div id="anyIDtag">Mensaje de notificación</div>
+{% endhighlight %}
 
 Ahora añadimos los ficheros js, que deberían ir al final del html, justo antes de "<body>".
 
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-	<script src="notify.jquery.min.js"></script>
-	<script>
-		$(document).ready(function(){
-			$('#anyIDtag').notify();
-		});
-	</script>
+{% highlight html %}
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="notify.jquery.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$('#anyIDtag').notify();
+	});
+</script>
+{% endhighlight %}
 
 Con esto ya tendríamos funcionando el plugin al cargar la página.
 
@@ -44,25 +47,28 @@ El plugin incorpora cuatro posibles opciones a la hora de su carga, que son: col
 
 Ejemplo:
 
-
-	<script>
-		$(document).ready(function(){
-			$('#anyIDtag').notify({ // Optional parameters. Default values.
-				active: true, // Muestra el mensaje.
-				close: true, // Muestra el aspa para cerrar.
-				color: "#444", // Color de la fuente gris al 80%.
-				background: "#FF9" // Color de fondo amarillo suave.
-			});
+{% highlight html %}
+<script>
+	$(document).ready(function(){
+		$('#anyIDtag').notify({ // Optional parameters. Default values.
+			active: true, // Muestra el mensaje.
+			close: true, // Muestra el aspa para cerrar.
+			color: "#444", // Color de la fuente gris al 80%.
+			background: "#FF9" // Color de fondo amarillo suave.
 		});
-	</script>
+	});
+</script>
+{% endhighlight %}
 
 Como decía al principio, puedes cambiar el formato del mensaje definiendo en CSS la clase *.notify-message* como por ejemplo:
 
-	.notify-message { font-size: 16px; }
+{% highlight css %}
+.notify-message { font-size: 16px; }
+{% endhighlight %}
 
 Hay que tener en cuenta que el plugin, coge por defecto la configuración de fuente que esté definida en la página, tamaño, negrita, etc...
 
-Más información: [Web][2] - [Descarga][3] - [Código fuente en GitHub][4]
+Más información: [Sitio web][2] - [Descarga][3] - [Código fuente en GitHub][4]
 
 [1]: //www.gridcss.com
 [2]: //notify.gridcss.com
