@@ -27,7 +27,6 @@ Ahora añadimos los ficheros js, que deberían ir al final del html, justo antes
 			$('#anyIDtag').notify();
 		});
 	</script>
-```
 
 Con esto ya tendríamos funcionando el plugin al cargar la página.
 
@@ -45,7 +44,7 @@ El plugin incorpora cuatro posibles opciones a la hora de su carga, que son: col
 
 Ejemplo:
 
-```
+
 	<script>
 		$(document).ready(function(){
 			$('#anyIDtag').notify({ // Optional parameters. Default values.
@@ -56,13 +55,10 @@ Ejemplo:
 			});
 		});
 	</script>
-```
 
 Como decía al principio, puedes cambiar el formato del mensaje definiendo en CSS la clase *.notify-message* como por ejemplo:
 
-```
 	.notify-message { font-size: 16px; }
-```
 
 Hay que tener en cuenta que el plugin, coge por defecto la configuración de fuente que esté definida en la página, tamaño, negrita, etc...
 
