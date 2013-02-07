@@ -15,20 +15,18 @@ Ahora vamos a ver cómo implementarlo.
 
 Primero debemos añadir el mensaje que queremos que aparezca en el notify.
 
-```
-	&lt;div id="anyIDtag">Mensaje de notificación&lt;/div>
-```
+	<div id="anyIDtag">Mensaje de notificación</div>
 
-Ahora añadimos los ficheros js, que deberían ir al final del html, justo antes de "&lt;body>".
+Ahora añadimos los ficheros js, que deberían ir al final del html, justo antes de "<body>".
 
-```
-	&lt;script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js">&lt;/script>
-	&lt;script src="notify.jquery.min.js">&lt;/script>
-	&lt;script>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<script src="notify.jquery.min.js"></script>
+	<script>
 		$(document).ready(function(){
 			$('#anyIDtag').notify();
 		});
-	&lt;/script>
+	</script>
 ```
 
 Con esto ya tendríamos funcionando el plugin al cargar la página.
@@ -48,7 +46,7 @@ El plugin incorpora cuatro posibles opciones a la hora de su carga, que son: col
 Ejemplo:
 
 ```
-	&lt;script>
+	<script>
 		$(document).ready(function(){
 			$('#anyIDtag').notify({ // Optional parameters. Default values.
 				active: true, // Muestra el mensaje.
@@ -57,7 +55,7 @@ Ejemplo:
 				background: "#FF9" // Color de fondo amarillo suave.
 			});
 		});
-	&lt;/script>
+	</script>
 ```
 
 Como decía al principio, puedes cambiar el formato del mensaje definiendo en CSS la clase *.notify-message* como por ejemplo:
