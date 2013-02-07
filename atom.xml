@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>{{ site.title }}</title>
- <link href="http://{{ site.url }}/atom.xml" rel="self"/>
- <link href="http://{{ site.url }}/"/>
+ <link href="http://ant.onio.org/atom.xml" rel="self"/>
+ <link href="http://ant.onio.org/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://{{ site.url }}/</id>
+ <id>http://ant.onio.org/</id>
  <author>
    <name>{% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}</name>
    <email>{{ site.email }}</email>
@@ -17,10 +17,10 @@ layout: nil
  {% for post in site.posts limit:10 %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://{{ site.url }}{{ post.url }}"/>
+   <link href="http://ant.onio.org{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content |  truncatewords : '100' | xml_escape }}{{ " [ <a href='http://" | xml_escape }}{{ site.url }}{{ post.url }}{{ "'>Continuar leyendo...</a> ]" | xml_escape }}</content>
+   <id>http://ant.onio.org{{ post.id }}</id>
+   <content type="html">{{ post.content |  truncatewords : '100' | xml_escape }}{{ " [ <a href='http://" | xml_escape }}ant.onio.org{{ post.url }}{{ "'>Continuar leyendo...</a> ]" | xml_escape }}</content>
  </entry>
  {% endfor %}
 

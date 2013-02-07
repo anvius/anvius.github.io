@@ -14,14 +14,3 @@ destination: ./_site
 url: ant.onio.org
 title: El blog de Antonio
 author: Antonio Villamarin
-# email: me@example.com
-
-analytics:
-  account: UA-3709753-8
-
-social:
-  github: zeura
-  facebook: villamarin
-  linkedin: villamarin
-  twitter: antvillamarin
-  plus: 114899077462139891523
