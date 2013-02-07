@@ -5,7 +5,7 @@ description: Plugin para jQuery que permite mostrar un mensaje de notificación 
 image: notify-jquery.png
 ---
 
-JQuery Notify es un plugin que permite crear un mensaje de alerta, información u oferta desplegable en la parte superior de la pantalla cuando el usuario está viendo tu web.
+JQuery Notify es un plugin que permite crear un mensaje de alerta, información u oferta desplegable en la parte superior de la pantalla cuando el usuario está viendo tu web. Es un componente de [Grid CSS][1].
 
 Este plugin no necesita añadir CSS especial ya que viene incluido en el propio archivo js. En cualquier caso, si quisieras modificar el aspecto del mensaje existen dos opciones.
 
@@ -62,7 +62,12 @@ Como decía al principio, puedes cambiar el formato del mensaje definiendo en CS
 
 Hay que tener en cuenta que el plugin, coge por defecto la configuración de fuente que esté definida en la página, tamaño, negrita, etc...
 
+Página web: [Web][2] - [Descarga][3] - [Código fuente en GitHub][4]
 
+[1]: //www.gridcss.com
+[2]: //notify.gridcss.com
+[3]: //github.com/zeura/notify.jquery/tarball/master
+[4]: //github.com/zeura/notify.jquery
 
 
 
