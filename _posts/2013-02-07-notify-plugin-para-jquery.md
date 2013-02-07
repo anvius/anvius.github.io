@@ -15,13 +15,13 @@ Ahora vamos a ver cómo implementarlo.
 
 Primero debemos añadir el mensaje que queremos que aparezca en el notify.
 
-~~~
+```
 <div id="anyIDtag">Mensaje de notificación</div>
-~~~
+```
 
-Ahora añadimos los ficheros js, que deberían ir al final del html, justo antes de ~~~</body>~~~.
+Ahora añadimos los ficheros js, que deberían ir al final del html, justo antes de ```body>```.
 
-~~~
+```
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script src="notify.jquery.min.js"></script>
 <script>
@@ -29,7 +29,7 @@ Ahora añadimos los ficheros js, que deberían ir al final del html, justo antes
 		$('#anyIDtag').notify();
 	});
 </script>
-~~~
+```
 
 Con esto ya tendríamos funcionando el plugin al cargar la página.
 
@@ -37,17 +37,17 @@ Vamos ahora con las opciones.
 
 El plugin incorpora cuatro posibles opciones a la hora de su carga, que son: color, background, close, active.
 
-**color**: Se usa para especificar el color del texto que aparecerá en el mensaje. Se especifica como ~~~color: "#FFF"~~~
+**color**: Se usa para especificar el color del texto que aparecerá en el mensaje. Se especifica como ```color: "#FFF"```
 
 **background**: Se trata del color de fondo del mensaje. El color en formato hexadecimal.
 
-**close**: Por defecto es ~~~false~~~ y se usa para indicar si queremos que aparezca un "aspa" para su cierre definitivo o un "flecha" para su ocultación temporal.
+**close**: Por defecto es ```false``` y se usa para indicar si queremos que aparezca un "aspa" para su cierre definitivo o un "flecha" para su ocultación temporal.
 
 **active**: Se emplea para indicar si el mensaje debe aparecer activo o por el contrario debe aparece la flecha para desplegar el mensaje. por defecto es activo.
 
 Ejemplo:
 
-~~~
+```
 <script>
 	$(document).ready(function(){
 		$('#anyIDtag').notify({ // Optional parameters. Default values.
@@ -58,13 +58,13 @@ Ejemplo:
 		});
 	});
 </script>
-~~~
+```
 
 Como decía al principio, puedes cambiar el formato del mensaje definiendo en CSS la clase ".notify-message" como por ejemplo:
 
-~~~
+```
 .notify-message { font-size: 16px; }
-~~~
+```
 
 Hay que tener en cuenta que el plugin, coge por defecto la configuración de fuente que esté definida en la página, tamaño, negrita, etc...
 
