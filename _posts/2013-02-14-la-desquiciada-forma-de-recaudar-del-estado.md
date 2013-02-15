@@ -18,13 +18,13 @@ La multa se puede ver en la imagen, aunque le he quitado los datos personales.
 
 En el motivo de la multa indica: **Circular con el vehículo reseñado en poblado por vía insuficientemente iluminada, sin llevar encendido el alumbrado de corto alcance o de cruce entre la puesta y la salida del sol. Afluencia masiva de vehículos. No se notifica desplazamiento masivo de vehículos.**
 
-Estaría bien sino fuera porque la multa se ha hecho en la Autovía A3 (Madrid-Valencia) a las 13:10.
+Estaría bien si no fuera porque la multa se ha hecho en la Autovía A3 (Madrid-Valencia) a las 13:10.
 
 Efectivamente a esa hora y ese día pasaba por ahí, volviendo a mi casa, pero ni se había puesto el sol, ni era poblado, ni había tráfico masivo de vehículos, de hecho iba prácticamente solo por la carretera.
 
-Veo que si yo sí pasaba por ahí a esa hora, con el sol prácticamente en el Cénit, en qué estaban pensando esos agentes para multarme. Imagino que no me pararon para que no me partira de risa mientras me multaban.
+Con el sol prácticamente en el Cénit, ¿en qué estaban pensando esos agentes para multarme? Imagino que no me pararon para que no me partiera de risa mientras me multaban.
 
-No encuentro explicación mínimamente razonable para uno o más agentes decidan poner este tipo de multas mientras del da el sol en los ojos en una autopista y decidieran multarme (no sé si seré el único). Solamente puedo especular con que están desesperados con poner multas a cualquier coste y emplear cualquier medio por desquiciado que sea para recaudar.
+No encuentro explicación mínimamente razonable para que algún agente decida poner este tipo de multas mientras le da el sol en los ojos (no sé si seré el único al que han multado de este modo). Solamente puedo especular con que están desesperados con poner multas a cualquier coste y emplear cualquier medio por desquiciado que sea para recaudar.
 
 Desde luego me parece ridículo, vergonzoso, abusivo y desmedido. Solo espero que tengan muchos recursos antes de que estos los pongan también de pago.
 
