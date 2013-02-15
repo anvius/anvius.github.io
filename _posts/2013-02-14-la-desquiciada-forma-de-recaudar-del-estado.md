@@ -6,7 +6,7 @@ image: multa.png
 author: Antonio Villamarin
 ---
 
-Escribo esta entrado a modo de desahogo. Disculpen las molestias.
+Escribo esta entrada a modo de desahogo. Disculpen las molestias.
 
 Ayer me he encontrado con la desagradable visita de una carta certificada de la DGT que contenía una multa de tráfico. Como de costumbre me he preocupado con estas cosas, porque no sabes qué te van a reclamar.
 
