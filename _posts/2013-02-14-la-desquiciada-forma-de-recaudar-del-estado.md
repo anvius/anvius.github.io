@@ -24,7 +24,7 @@ Efectivamente a esa hora y ese día pasaba por ahí, volviendo a mi casa, pero n
 
 Con el sol prácticamente en el Cénit, ¿en qué estaban pensando esos agentes para multarme? Imagino que no me pararon para que no me partiera de risa mientras me multaban.
 
-No encuentro explicación mínimamente razonable para que algún agente decida poner este tipo de multas mientras le da el sol en los ojos (no sé si seré el único al que han multado de este modo). Solamente puedo especular con que están desesperados con poner multas a cualquier coste y emplear cualquier medio por desquiciado que sea para recaudar.
+No encuentro explicación mínimamente razonable para que algún agente decida poner este tipo de multas mientras le da el sol en los ojos (no sé si seré el único al que han multado de este modo). Solamente puedo especular con que están desesperados con poner multas a cualquier coste y emplear cualquier medio para recaudar, por desquiciado que sea.
 
 Desde luego me parece ridículo, vergonzoso, abusivo y desmedido. Solo espero que tengan muchos recursos antes de que estos los pongan también de pago.
 
