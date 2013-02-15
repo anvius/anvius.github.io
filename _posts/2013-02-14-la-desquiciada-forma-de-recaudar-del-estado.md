@@ -8,6 +8,8 @@ tags: multa, dgt, trafico, politica
 category: politica
 ---
 
+Escribo esta entrado a modo de desahogo. Disculpen las molestias.
+
 Ayer me he encontrado con la desagradable visita de una carta certificada de la DGT que contenía una multa de tráfico. Como de costumbre me he preocupado con estas cosas, porque no sabes qué te van a reclamar.
 
 Cuando he abierto la carta no podía salir de mi estupor. Una multa de 200€ donde me facilitan de varias formas el pago de la misma además de un fantástico descuento del 50% por prontopago. En realidad la carta debe solicitar los datos del conductor del automóvil, pues está a nombre de la empresa, y evidentemente no puede conducir una empresa, pero parece que les da lo mismo, mientras la multa se pague. Además te recalcan de forma contundente que si te permites el lujo de reclamar la multa perderás esta fabulosa oportunidad de descuento.
