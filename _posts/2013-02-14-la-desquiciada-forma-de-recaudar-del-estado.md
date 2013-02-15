@@ -4,8 +4,6 @@ title: La desquiciada forma de recaudar del Estado
 description: La desquiciada forma de recaudar del Estado Español, que no tiene límites.
 image: multa.png
 author: Antonio Villamarin
-tags: multa, dgt, trafico, politica
-category: politica
 ---
 
 Escribo esta entrado a modo de desahogo. Disculpen las molestias.
