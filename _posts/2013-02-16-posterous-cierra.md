@@ -42,7 +42,7 @@ Y ya está.
 
 Jekyll tiene un módulo para poder importar los blogs en formato wordpress al propio Jekyll que puedes consultar en la [página del autor][6].
 
-*Images de [dolphinsdock][8]
+*Imagen de [dolphinsdock][8]
 
 [1]: http://posterous.com
 [2]: http://tumblr.com
