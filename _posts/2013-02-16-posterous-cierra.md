@@ -10,9 +10,11 @@ author: Antonio Villamarin
 
 Hace ya algunos meses que vienen haciendo algunas acciones en este sentido. De hecho hace aproximadamente un mes ya no permitían nuevos registros.
 
-He estado usando esta plataforma prácticamente desde su nacimiento y simpre me ha parecido una buena iniciativa, especialmente para generar blogs simples en los que compartir imágenes o videos lo que le hacía rival directo de [Tumblr][2].
+He estado usando esta plataforma prácticamente desde su nacimiento y siempre me ha parecido una buena iniciativa, especialmente para generar blogs simples en los que compartir imágenes o videos lo que le hacía rival directo de [Tumblr][2].
 
 He de confesar que me gustaba mucho más al principio por su interface, mientras las otras populares plataformas de blogs tenían sus pequeños inconvenientes, posterous apostaba por la simpicidad pudiendo publicar tus posts desde el email y adaptando cualquier imagen o video a post en concreto.
+
+Parece que twitter ha decidido pasar al equipo de programadores de posterous a twitter y abandonar este proyecto, algo que realmente no comprendo bien pues tienen millones de usuarios activos, pero el equipo de twitter tendrá sus razones.
 
 Ahora se acaba una plataforma pero creo sinceramente que ha ayudado a su entorno a mejorar y añadir nuevas funcionalidades.
 
@@ -20,7 +22,7 @@ Para aquellos que todavía no han mudado su blog, las alternativas más conocida
 
 Para exportar tu blog de posterous a otra plataforma existen dos formas de hacerlo (a parte del nunca suficientemente valorado copy-paste :-) ).
 
-La primera de ellas está orientada a los que tienen poco artículos en el blog.
+La primera de ellas está orientada a los que tienen pocos artículos en el blog.
 
 Una de las grandes ventajas que ofrece posterous a sus usuarios es el sistema de autoposting, que permite publicar tu entrada directamente en sitios como twitter, facebook, identi.ca, blogger o wordpress. Para poder publicarlos ahora lo que debes hacer es crearte un blog en una de estas plataformas, blogger, wordpress o posterous.
 
