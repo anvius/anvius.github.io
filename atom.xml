@@ -20,7 +20,12 @@ layout: nil
    <link href="http://ant.onio.org{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://ant.onio.org{{ post.id }}</id>
-   <content type="html">{{ post.content |  truncatewords : '100' | xml_escape }}{{ " [ <a href='http://" | xml_escape }}ant.onio.org{{ post.url }}{{ "'>Continuar leyendo...</a> ]" | xml_escape }}</content>
+   <content type="html">
+		{% if post.image != null %}
+			<img src="/assets/images/{{ post.image }}" />
+		{% endif %}
+		{{ post.content |  truncatewords : '100' | xml_escape }}{{ " [ <a href='http://" | xml_escape }}ant.onio.org{{ post.url }}{{ "'>Continuar leyendo...</a> ]" | xml_escape }}
+	</content>
  </entry>
  {% endfor %}
 
