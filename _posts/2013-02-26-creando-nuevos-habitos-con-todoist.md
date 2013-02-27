@@ -20,11 +20,11 @@ Todo este rollo es para llegar a la conclusión de que necesitaba un sistema que
 
 Había buscado aplicaciones que me permitieran:
 
-	* Llevar listas de tareas comunes.
-	* Listas de tareas bajo proyectos y subproyectos, por la programación.
-	* Enlazar con el calendario aunque sea local del programa (Esto no era imprescindible ya que mi calendario es bastante simple).
-	* Anotar cosas sobre las tareas (Comentarios).
-	* Que pudiera tenerlo en cualquiera de mis ordenadores, todos con Linux (Ubuntu y últimamente CrunchBang) así como en el teléfono que va todo el día conmigo.
+* Llevar listas de tareas comunes.
+* Listas de tareas bajo proyectos y subproyectos, por la programación.
+* Enlazar con el calendario aunque sea local del programa (Esto no era imprescindible ya que mi calendario es bastante simple).
+* Anotar cosas sobre las tareas (Comentarios).
+* Que pudiera tenerlo en cualquiera de mis ordenadores, todos con Linux (Ubuntu y últimamente CrunchBang) así como en el teléfono que va todo el día conmigo.
 
 Pensaba que nada del otro mundo, pero no era tan sencillo.
 
