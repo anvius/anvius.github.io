@@ -11,7 +11,7 @@ layout: gridcss
 				{% endif %}
 				{{ content }}
 			</article>
-			{% if page.comments %}
+			{% if page.comments != null %}
 				<div id="disqus_thread"></div>    
 				<script type="text/javascript">
 					var disqus_shortname = 'villamarin';
@@ -23,4 +23,4 @@ layout: gridcss
 				</script>
 				<a href="http://disqus.com" class="dsq-brlink">Comentarios gracias a <span class="logo-disqus">Disqus</span></a>
 			 {% endif %}
-			    		</section>
+		</section>
