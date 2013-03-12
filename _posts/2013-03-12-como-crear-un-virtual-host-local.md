@@ -51,7 +51,7 @@ Ahora debemos cambiar el servidor de páginas web.
 
 Debemos ir al directorio de configuración de LightTPD en nuestro equipo (si pusimos 127.0.0.1). En linux y mac está en el directorio /etc/lighttpd (esta ruta puede cambiar según la versión). En windows donde hayamos instalado el LightTPD (Esto es igual en Apache y nGinX). Editamos el archivo virtualhosts.conf y añadimos un host virtual con el dominio inventado que hemos creado al final del fichero.
 
-{% highlight %}
+{% highlight lighttpd %}
 $HTTP["host"] == "prueba.dev" {
     server.document-root = "/home/antonio/miweb/"
     server.name = "prueba.dev"
@@ -66,7 +66,7 @@ Después reiniciamos el servidor web. En linux y mac nos valdría con "sudo serv
 
 El archivo que tenemos que editar se llama apache2.conf o httpd.conf, dependiendo de la versión.
 
-{% highlight %}
+{% highlight apache %}
 <VirtualHost *:80>
     DocumentRoot /home/antonio/miweb
     ServerName prueba.dev
@@ -79,7 +79,7 @@ Reiniciamos apache y listo.
 
 En nGinX creamos un fichero para el virtual host en la carpeta "conf.d/" de la configuración (Recordamos que las configuraciones en LInux y Mac suelen estar en /etc y en este caso /etc/nginx/), llamado prueba.dev.conf y añadimos lo siguiente:
 
-{% highlight %}
+{% highlight nginx %}
 server {
 	listen       127.0.0.1:80;
 	server_name  prueba.dev;
