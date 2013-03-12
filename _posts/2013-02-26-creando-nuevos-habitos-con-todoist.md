@@ -4,7 +4,6 @@ title: Creando nuevos hábitos con Todoist
 description: Creando nuesvos hábitos con la aplicación multiplataforma Todoist
 image: todoist.png
 author: Antonio Villamarin
-comments: true
 ---
 
 Como ya he dicho en otras entradas estoy en pleno proceso de cambio, y llevo tiempo siguiendo blogs como [Think Wasabi][1] o [El canasto][2], sobre mejorar la productividad cambiando algunos hábitos.
