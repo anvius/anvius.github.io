@@ -3,8 +3,6 @@ layout: post
 title: Como crear un virtual host local
 description: Cómo crear un virtual host local en lighttpd, apache y nginx.
 image: virtualhost.jpg
-author: Antonio Villamarin
-tags: servidores
 ---
 
 Antes de empezar, habría que aclarar para los más novatos, qué es un virtual host y para qué puedo querer uno local.
@@ -67,10 +65,6 @@ Después reiniciamos el servidor web. En linux y mac nos valdría con "sudo serv
 El archivo que tenemos que editar se llama apache2.conf o httpd.conf, dependiendo de la versión.
 
 {% highlight apache %}
-<VirtualHost *:80>
-    DocumentRoot /home/antonio/miweb
-    ServerName prueba.dev
-</VirtualHost>
 {% endhighlight %}
 
 Reiniciamos apache y listo.
@@ -94,6 +88,6 @@ Y por supuesto reiniciamos el nGinX.
 
 ### Uso ###
 
-Ahora podemos abrir nuestro navegador favorito y poner la dirección http://prueba.dev y veremos el directorio al que lo hemos redirigido. En algunas ocasiones no funciona correctamente, porque el navegador se va a burcar la ruta a internet. Esto lo solventamos añadiéndole una barra al final, tal que http://prueba.dev/.
+Ahora podemos abrir nuestro navegador favorito y poner la dirección http://prueba.dev y veremos el directorio al que lo hemos redirigido. En algunas ocasiones no funciona correctamente, porque el navegador se va a buscar la ruta a internet. Esto lo solventamos añadiéndole una barra al final, tal que http://prueba.dev/.
 
 Y esto es todo, ahora a programar :)
