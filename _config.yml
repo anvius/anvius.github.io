@@ -15,5 +15,5 @@ url: ant.onio.org
 title: El blog de Antonio
 author: Antonio Villamarin
 
-paginate: 5
+# paginate: 5
 lsi: true
