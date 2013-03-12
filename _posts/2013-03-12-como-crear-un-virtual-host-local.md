@@ -3,8 +3,6 @@ layout: post
 title: Como crear un virtual host local
 description: Cómo crear un virtual host local en lighttpd, apache y nginx.
 image: virtualhost.jpg
-author: Antonio Villamarin
-tags: servidores
 ---
 
 Antes de empezar, habría que aclarar para los más novatos, qué es un virtual host y para qué puedo querer uno local.
