@@ -19,6 +19,8 @@ Sobre porqué de momento no tengo los comentarios habilitados,
 es porque no estoy muy seguro de que sea útil en este momento, ya que la mayoría de
 las personas han trasladado sus comentarios a las redes sociales en vez de los blogs.
 
+Al final me he decidido por Disqus para añadir comentarios al blog. :)
+
 Y por último. ¿Porqué un blog ahora?
 
 Bueno, a pesar de que probablemente estén de capa caída desde hace ya varios años,

@@ -11,12 +11,12 @@ message: "En estos momentos estoy trabajando en el blog; actualizando posts, ret
 					<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 					<p class="small">{{ post.date | date: "%d.%m.%Y" }}</p>
 				</header>
-				<article>
+				<article class="clearfix">
 					{% if post.image != null %}
 						<img src="/assets/images/{{ post.image }}" class="float-left thumb" />
 					{% endif %}
-					{{ post.content | truncatewords : '50' }}
-					<p><span class="tag"><a href="{{ post.url }}" class="">Continuar leyendo...</a></span></p>				
+					{{ post.content | truncatewords : '50' }}				
 				</article>
+				<footer class="right"><p><span class="tag"><a href="{{ post.url }}" class="">Continuar leyendo...</a></span></p></footer>
 			</section>	
 			{% endfor %}
