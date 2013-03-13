@@ -8,9 +8,6 @@ markdown: rdiscount
 rdiscount:
   extensions: [smart]
 
-source:      .
-destination: ./_site
-
 url: ant.onio.org
 title: El blog de Antonio
 author: Antonio Villamarin

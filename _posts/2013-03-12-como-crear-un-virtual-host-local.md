@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Como crear un virtual host local
-description: Cómo crear un virtual host local en lighttpd, apache y nginx.
+description: Como crear un virtual host local en lighttpd, apache y nginx.
 image: virtualhost.jpg
 ---
 
@@ -23,7 +23,7 @@ En el caso de ser local, no es necesario tocar el bind, porque nuestra máquina,
 
 Este fichero tiene una estructura muy sencilla, indica la ip y después el host en cada linea, de la siguiente forma (recordar que esto solamente es el local).
 
-{% highlight %}
+{% highlight apache %}
 127.0.0.1    localhost
 {% endhighlight %}
 
@@ -33,9 +33,8 @@ Pero normalmente no estamos desarrollando solamente una cosa, y nos puede venir 
 
 A modo de ejemplo voy a definir el dominio inventado **prueba.dev**.
 
-{% highlight %}
+{% highlight apache %}
 127.0.0.1    localhost
-
 127.0.0.1    prueba.dev
 {% endhighlight %}
 
@@ -65,6 +64,10 @@ Después reiniciamos el servidor web. En linux y mac nos valdría con "sudo serv
 El archivo que tenemos que editar se llama apache2.conf o httpd.conf, dependiendo de la versión.
 
 {% highlight apache %}
+<VirtualHost *:80>
+    DocumentRoot /home/antonio/miweb
+    ServerName prueba.dev
+</VirtualHost>
 {% endhighlight %}
 
 Reiniciamos apache y listo.
@@ -88,6 +91,6 @@ Y por supuesto reiniciamos el nGinX.
 
 ### Uso ###
 
-Ahora podemos abrir nuestro navegador favorito y poner la dirección http://prueba.dev y veremos el directorio al que lo hemos redirigido. En algunas ocasiones no funciona correctamente, porque el navegador se va a buscar la ruta a internet. Esto lo solventamos añadiéndole una barra al final, tal que http://prueba.dev/.
+Ahora podemos abrir nuestro navegador favorito y poner la dirección prueba.dev y veremos el directorio al que lo hemos redirigido. En algunas ocasiones no funciona correctamente, porque el navegador se va a burcar la ruta a internet. Esto lo solventamos añadiéndole una barra al final, tal que prueba.dev/.
 
 Y esto es todo, ahora a programar :)
