@@ -15,7 +15,7 @@ En realidad, al final, no es un problema esto, puesto que para los comentarios e
 
 Al igual que [Disqus][2], Facebook también ofrece comentarios para incorporarlos a tu web fácilmente, pero dado que no uso prácticamente nada esta red social, he preferido Disqus por su claridad y sencillez.
 
--- <small>Imágen Creative Commons de [smemon][3]</small>
+-- Imágen Creative Commons de [smemon][3]
 
 [1]: http://ant.onio.org/2013/02/generadores-de-sitios-estaticos.html
 [2]: http://disqus.com
