@@ -5,6 +5,20 @@ keywords: "Antonio, Antonio Villamarin, Antonio Villamarin Bajo, Zeura, Zeura Ne
 description: "Blog de Antonio Villamarín, un blog más de internet."
 message: "En estos momentos estoy trabajando en el blog; actualizando posts, retoques de diseño y cambios en algunos fichero, por lo que puede ser que la información falle o no esté completa. Disculpa las molestias."
 ---
+			<!-- Social like's -->
+				<div class="right">
+					<script type="text/javascript">
+					document.write( '<iframe src="http://www.facebook.com/plugins/like.php?href=' +
+					encodeURI(window.location.href) +
+					'&amp;layout=button_count&amp;show_faces=false&amp;width=120&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:120px; height:20px"></iframe>'
+					);
+					</script>
+					<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="antvillamarin">Tweet</a>
+					<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+					<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+					<g:plusone size="medium"></g:plusone>
+				</div>
+
 			{% for post in site.posts %}
 			<section>
 				<header>
@@ -20,16 +34,3 @@ message: "En estos momentos estoy trabajando en el blog; actualizando posts, ret
 				<footer class="right"><p><span class="tag"><a href="{{ post.url }}" class="">Continuar leyendo...</a></span></p></footer>
 			</section>	
 			{% endfor %}
-			<!-- Social like's -->
-				<div class="center">
-					<script type="text/javascript">
-					document.write( '<iframe src="http://www.facebook.com/plugins/like.php?href=' +
-					encodeURI(window.location.href) +
-					'&amp;layout=button_count&amp;show_faces=false&amp;width=120&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:120px; height:20px"></iframe>'
-					);
-					</script>
-					<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="antvillamarin">Tweet</a>
-					<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-					<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-					<g:plusone size="medium"></g:plusone>
-				</div>
