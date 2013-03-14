@@ -3,6 +3,8 @@
 auto: true
 permalink: /:year/:month/:title.html
 pygments: true
+paginate: 5
+lsi: true
 exclude: ['README.md','CNAME']
 markdown: rdiscount
 rdiscount:
@@ -11,6 +13,3 @@ rdiscount:
 url: ant.onio.org
 title: El blog de Antonio
 author: Antonio Villamarin
-
-paginate: 5
-lsi: true
