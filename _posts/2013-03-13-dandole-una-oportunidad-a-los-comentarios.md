@@ -3,9 +3,7 @@ layout: post
 title: Dandole una oportunidad a los comentarios
 description: Dandole una oportunidad a los comentarios gracias a Disqus.
 image: disqus.jpg
-tags:
-- blog
-- disqus
+tag: General
 ---
 
 Le he dado muchas vueltas al tema de poner comentarios en el blog, no porque no aprecie la interacción los los lectores, algo que me parece muy importante, sino porque había visto cómo la mayoría de los comentarios en blogs de prestigio desaparecían para trasladarse a redes como twitter o facebook, convirtiendo los comentarios en muchos casos en algo, al menos, poco útil.

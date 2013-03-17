@@ -1,0 +1,21 @@
+---
+layout: page
+title: "Categorias"
+keywords: "Antonio, Antonio Villamarin, Antonio Villamarin Bajo, Zeura, Zeura Netowrk"
+description: "Categorias del blog de Antonio Villamarín, un blog más de internet."
+---
+
+				{% for tag in site.tags %}
+				<section>
+					<header>
+						<h3>{{ tag[0] }}</h3>
+					</header>
+					<article class="clearfix">
+						<ul>
+						{% for post in tag[1] %}
+							<li><span class="small">{{ post.date | date: "%d.%m.%Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+						{% endfor %}
+						</ul>		
+					</article>
+				</section>
+				{% endfor %}

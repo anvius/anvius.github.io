@@ -4,9 +4,7 @@ title: Posterous cierra
 description: Posterous cierra sus puertas para integrar su equipo en twitter
 image: posterous.jpg
 author: Antonio Villamarin
-tags:
-- posterous
-- noticias
+tag: General
 ---
 
 [Posterous][1], el servicio de blogs sencillos que aparecía hace cinco años en escena, ha anunciado que cerrará sus puertas en día 30 de Abril definitivamente.

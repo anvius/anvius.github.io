@@ -3,10 +3,7 @@ layout: post
 title: 25 años del primer dominio de internet
 description: 25 años del primer dominio de internet, symboics.com
 image: symbolics.jpg
-tags:
-- dominios
-- internet
-- historia de internet
+tag: Dominios
 ---
 
 Symbolics.com fue el primer dominio que se registró, un 15 de Marzo de 1985. Muchas cosas han pasado desde que la empresa Symbolics de boston (Masachussets) adquiriera este dominio, entre otras cosas, este mismo dominio cambio de manos hace tan solo un año.
