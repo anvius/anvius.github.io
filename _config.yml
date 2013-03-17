@@ -5,7 +5,7 @@ permalink: /:year/:month/:title.html
 pygments: true
 #paginate: 5
 lsi: true
-exclude: ['README.md','CNAME','.gitignore','archivo.html']
+exclude: ['README.md','CNAME','.gitignore']
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
