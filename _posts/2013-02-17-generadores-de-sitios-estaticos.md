@@ -4,7 +4,11 @@ title: Generadores de sitios estáticos. La última moda vintage.
 description: Generadores de sitios estáticos. La ultima nueva moda de generar sitios web a partir de únicamente HTML.
 image: generadores-estaticos.jpg
 author: Antonio Villamarin
-tags: 
+tags:
+- programacion
+- jekyll
+- generadores estaticos de contenido
+category: Programacion
 ---
 
 Una moda relativamente reciente ha sido la de recuperar las "buenas" costumbres de montar un sitio web solamente con lo que necesita, es decir, con HTML, CSS y si quieres algo de JavaScript.

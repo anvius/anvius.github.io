@@ -2,6 +2,8 @@
 layout: post
 title: Manifiesto de Inversores en Dominio de la asociación
 image: domains.jpg
+tag: dominios
+category: Domaining
 ---
 
 La asociación de Inversores en Nombres de Dominio ha desarrollado un manifiesto colaborativo sobre las buenas prácticas de Domainer que ha ido incorporando las ideas aportadas en el hilo de demene donde se propuso el mismo, y ha estado absorviendo ideas desde Julio de 2008.

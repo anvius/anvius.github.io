@@ -4,7 +4,10 @@ layout: gridcss
 		<section>
 			<header>
 				<h3><a href="{{ post.url }}">{{ page.title }}</a></h3>
-				<p class="small">{{ page.date | date: "%d.%m.%Y" }} Por <span class="author vcard"><a rel="author"  class="url fn" href="http://ant.onio.org/sobre-mi.html">Antonio Villamar&iacute;n</a></span></p>
+				<p class="small">
+					{{ page.date | date: "%d.%m.%Y" }}
+					Por <span class="author vcard"><a rel="author"  class="url fn" href="http://ant.onio.org/sobre-mi.html">Antonio Villamar&iacute;n</a></span>
+				</p>
 				<!-- Social like's -->
 					<div>
 						<script type="text/javascript">
@@ -25,9 +28,25 @@ layout: gridcss
 					<img src="/assets/images/{{ page.image }}" class="float-right" />
 				{% endif %}
 				{{ content }}
+				<p class="right small">
+					<br />
+					-- Artículo archivado en la categor&iacute;a {% for category in page.categories %} <strong>{{ category }}</strong> {% endfor %}
+					y etiquetado como: {% for tag in page.tags %} <strong>{{ tag }}</strong>{% if forloop.last != true %},{% endif %} {% endfor %}
+					<br />
+				</p>
 			</article>
-			{% if page.comments != false %}
 				<footer>
+					<div class="center">
+						<ul class="pages">
+							{% if page.previous.id != nil %}
+							<li><a href="{{ page.previous.url }}" class="small">&larr; {{ page.previous.title }}</a></li>
+							{% endif %}
+							{% if page.next.id != nil %}
+							<li><a href="{{ page.next.url }}" class="small">{{ page.next.title }} &rarr;</a></li>
+							{% endif %}
+						</ul>
+					</div>
+					{% if page.comments != false %}
 					<!-- Comentarios -->
 					<div id="disqus_thread"></div>
 					<script type="text/javascript">
@@ -45,7 +64,8 @@ layout: gridcss
 						Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
 					</noscript>
 					<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+					{% endif %}
 				</footer>
-   			 {% endif %}
+   			 
 
 		</section>

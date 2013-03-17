@@ -3,6 +3,13 @@ layout: post
 title: "Manual práctico de ZenCoding"
 description: "Manual práctico de ZenCodding. Escribe código HTML como un ninja con ZenCoding y tu IDE favorito"
 image: zencoding.jpg
+tags:
+- programacion
+- html
+- zencoding
+- emmet
+- sublime text 2
+category: Programacion
 ---
 
 ZenCoding es un plugin existente para muchos editores e IDE's que se ha extendido mucho en los últimos tiempos debido a su facilidad para aumentar la rapidez a la hora de escribir HTML, lo que a la mayoría de los desarrolladores nos parece una de las partes más tediosas de tratar (al menos a mí).
