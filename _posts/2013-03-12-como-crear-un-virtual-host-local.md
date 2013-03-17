@@ -10,7 +10,6 @@ tags:
 - local
 - apache
 - nginx
-category: Hosting
 ---
 
 Antes de empezar, habría que aclarar para los más novatos, qué es un virtual host y para qué puedo querer uno local.

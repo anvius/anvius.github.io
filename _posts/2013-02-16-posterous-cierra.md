@@ -7,7 +7,6 @@ author: Antonio Villamarin
 tags:
 - posterous
 - noticias
-category: Internet
 ---
 
 [Posterous][1], el servicio de blogs sencillos que aparecía hace cinco años en escena, ha anunciado que cerrará sus puertas en día 30 de Abril definitivamente.

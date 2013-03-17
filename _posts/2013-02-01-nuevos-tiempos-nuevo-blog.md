@@ -4,7 +4,6 @@ title: Nuevos tiempos nuevo blog
 description: Inauguro nuevo blog para antoniovillamarin.com, que pasa a ser ant.onio.org
 image: blog.jpg
 tag: blog
-category: General
 ---
 
 Este nuevo año 2013 ha traído consigo nuevo retos para mi.

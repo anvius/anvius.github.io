@@ -7,7 +7,6 @@ author: Antonio Villamarin
 tags: 
 - trafico
 - multa
-category: General
 ---
 
 Escribo esta entrada a modo de desahogo. Disculpen las molestias.

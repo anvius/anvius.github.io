@@ -8,7 +8,6 @@ tags:
 - todoist
 - gestores de tareas
 - empresa
-category: Empresa
 ---
 
 Como ya he dicho en otras entradas estoy en pleno proceso de cambio, y llevo tiempo siguiendo blogs como [Think Wasabi][1] o [El canasto][2], sobre mejorar la productividad cambiando algunos hábitos.

@@ -30,8 +30,7 @@ layout: gridcss
 				{{ content }}
 				<p class="right small">
 					<br />
-					-- Artículo archivado en la categor&iacute;a {% for category in page.categories %} <strong>{{ category }}</strong> {% endfor %}
-					y etiquetado como: {% for tag in page.tags %} <strong>{{ tag }}</strong>{% if forloop.last != true %},{% endif %} {% endfor %}
+					-- Artículo etiquetado como: {% for tag in page.tags %} <strong>{{ tag }}</strong>{% if forloop.last != true %},{% endif %} {% endfor %}
 					<br />
 				</p>
 			</article>

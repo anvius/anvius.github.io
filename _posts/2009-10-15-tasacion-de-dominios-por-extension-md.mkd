@@ -3,7 +3,6 @@ layout: post
 title: Tasación de un dominio por su extensión
 image: books.jpg
 tag: dominios
-category: Domaining
 ---
 
 Dado que todavía el mercado de los dominios no está maduro del todo, de vez en cuando me sorprenden algunas precios de ventas realizadas, como es el último caso de insure.com vendido por 16 millones de dólares.

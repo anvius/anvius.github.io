@@ -8,7 +8,6 @@ tags:
 - programacion
 - jekyll
 - generadores estaticos de contenido
-category: Programacion
 ---
 
 Una moda relativamente reciente ha sido la de recuperar las "buenas" costumbres de montar un sitio web solamente con lo que necesita, es decir, con HTML, CSS y si quieres algo de JavaScript.
