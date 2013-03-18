@@ -18,7 +18,7 @@ description: "Blog de Antonio Villamarín, un blog más de internet."
 					<g:plusone size="medium"></g:plusone>
 				</div>
 			-->
-				{% for post in site.posts %}
+				{% for post in paginator.posts %}
 				<section>
 					<header>
 						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
