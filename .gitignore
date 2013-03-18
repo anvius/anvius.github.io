@@ -1,5 +1,5 @@
-blog.sublime-workspace
-blog.sublime-project
+*.sublime-workspace
+*.sublime-project
 _rss.xml
 _archivo.html
 _site/

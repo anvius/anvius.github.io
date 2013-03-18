@@ -19,7 +19,7 @@ description: "Blog de Antonio Villamarín, un blog más de internet."
 				</div>
 			-->
 				{% for post in site.posts %}
-				<section>
+				<section id="article_item">
 					<header>
 						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 						<p class="small">
@@ -36,6 +36,9 @@ description: "Blog de Antonio Villamarín, un blog más de internet."
 					<footer class="right"><p><span class="tag"><a href="{{ post.url }}" class="">Continuar leyendo...</a></span></p></footer>
 				</section>	
 				{% endfor %}
+
+				<div class="paginate"></div>
+
 				<!-- Pagination links
 				<div class="center">
 					<ul class="pages">
@@ -79,17 +82,5 @@ description: "Blog de Antonio Villamarín, un blog más de internet."
 						</li>
 					</ul>
 				</div> -->
-				
-				<script type="text/javascript">
-					/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-					var disqus_shortname = 'villamarin'; // required: replace example with your forum shortname
-
-					/* * * DON'T EDIT BELOW THIS LINE * * */
-					(function () {
-						var s = document.createElement('script'); s.async = true;
-						s.type = 'text/javascript';
-						s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-						(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-					}());
-				</script>
     
+    				{% include disqus_counter.html %}
