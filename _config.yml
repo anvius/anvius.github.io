@@ -1,7 +1,7 @@
 auto: true
 permalink: date
 pygments: true
-exclude: ['README.md','.gitignore','_rss.xml','_archivo.html','CNAME','blog.sublime-project','blog.sublime-workspace']
+exclude: ['README.md','.gitignore','CNAME','blog.sublime-project','blog.sublime-workspace']
 markdown: rdiscount
 rdiscount:
     extensions: [smart]
