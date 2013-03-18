@@ -4,7 +4,7 @@ auto: true
 permalink: /:year/:month/:title.html
 pygments: true
 paginate: 5
-lsi: true
+#lsi: true
 exclude: ['README.md','.gitignore']
 markdown: rdiscount
 rdiscount:
