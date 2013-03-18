@@ -30,4 +30,6 @@ Por último una crítica más a Google. Intentaba añadir el microformato vCard 
 
 En la misma dirección parece que están yendo otras decisiones, como el cierre de Reader que antes mencioné. Es una obstinación que no llego a entender, ya que en vez de ofrecer y promocionar mejores servicios que su competencia (como los muy buenos HangOut) intentan forzar su uso.
 
-Así que, aunque tengo cuenta en Google+, que no uso, he eliminado el enlace a esta red social que ya tenía. 
+Así que, aunque tengo cuenta en Google+, que no uso, he eliminado el enlace a esta red social que ya tenía.
+
+Para terminar con lo que creo que será una buena noticia, estoy preparando algunos cursos y estoy viendo cómo configurarlo en Jekyll para que tengan su propia sección de cursos. Serán cursos de todo un poco, pero me gustaría que cada uno tuviera su espacio de relevancia. El primero que estoy preparando es sobre cómo usar Git que espero tenga buena acogida, ya que me lo habían pedido algunas personas.
