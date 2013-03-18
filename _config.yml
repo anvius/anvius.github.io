@@ -3,9 +3,9 @@
 auto: true
 permalink: /:year/:month/:title.html
 pygments: true
-#paginate: 5
+paginate: 5
 lsi: true
-exclude: ['README.md','CNAME','.gitignore']
+exclude: ['README.md','.gitignore']
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
