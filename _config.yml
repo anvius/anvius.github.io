@@ -1,17 +1,12 @@
-# Standard configuration
-
 auto: true
-permalink: /:year/:month/:title.html
+permalink: date
 pygments: true
-
-exclude: ['README.md','.gitignore']
+exclude: ['README.md','.gitignore','_rss.xml','_archivo.html','CNAME','blog.sublime-project','blog.sublime-workspace']
 markdown: rdiscount
 rdiscount:
-  extensions: [smart]
-
+    extensions: [smart]
 paginate: 5
 lsi: true
-
-url: ant.onio.org
+url: 'ant.onio.org'
 title: El blog de Antonio
 author: Antonio Villamarin
