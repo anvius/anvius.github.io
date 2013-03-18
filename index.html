@@ -18,7 +18,7 @@ description: "Blog de Antonio Villamarín, un blog más de internet."
 					<g:plusone size="medium"></g:plusone>
 				</div>
 			-->
-				{% for post in site.paginator.posts %}
+				{% for post in site.posts %}
 				<section>
 					<header>
 						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
@@ -79,30 +79,7 @@ description: "Blog de Antonio Villamarín, un blog más de internet."
 						</li>
 					</ul>
 				</div> -->
-				<div>
-					<ul class="pages">
-						{% if site.paginator.next_page %}
-							<li class="next"> 
-								<a href="/page{{site.paginator.next_page}}" title="Next Page" class="next" rel="next">&larr; Older Posts</a>
-							</li>
-						{% else %}
-							<li class="disabled"><a href="#">NO MORE!!!</a></li>
-						{% endif %}
-
-						{% if site.paginator.previous_page %}
-							<li class="prev">
-							{% if site.paginator.previous_page == 1 %}
-								<a href="/" title="Previous Page" class="prev">Newer Posts &rarr;</a>
-							{% else %}
-								<a href="/page{{site.paginator.previous_page}}" title="Previous Page" class="prev" rel="prev">Newer Posts &rarr;</a>
-							{% endif %}
-							</li>
-						{% else %}
-							<li class="disabled"><a href="#">Newer Posts &rarr;</a></li>
-						{% endif %}
-					</ul>
-				</div>
-
+				
 				<script type="text/javascript">
 					/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 					var disqus_shortname = 'villamarin'; // required: replace example with your forum shortname
