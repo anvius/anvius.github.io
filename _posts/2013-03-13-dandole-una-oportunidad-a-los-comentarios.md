@@ -18,6 +18,6 @@ Al igual que [Disqus][2], Facebook también ofrece comentarios para incorporarlo
 
 -- Imágen Creative Commons de [smemon][3]
 
-[1]: http://ant.onio.org/2013/02/generadores-de-sitios-estaticos.html
+[1]: http://ant.onio.org/2013/02/17/generadores-de-sitios-estaticos.html
 [2]: http://disqus.com
 [3]: http://www.flickr.com/photos/smemon/
