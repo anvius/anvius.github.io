@@ -22,7 +22,7 @@ No he conseguido que lea correctamente la variable paginator en Liquid así:
 
 En cuanto a otros cambios que he realizado, he añadido entradas relacionadas a cada entrada, que siempre viene bien para los nuevos visitantes, al menos en mi caso, cuando llego a un blog que no conozco a través de algún artículo, los enlaces relacionados me mantienen más tiempo en el blog. Esto se hace con la extensión LSI que está integrada en Jekyll, bajo la variable **site.related_posts**.
 
-También he creado una página de categorías mientras reordenaba el menú del blog.
+También he creado una página de categorías mientras reordenaba el menú del blog y una pequeña navegación entre entradas al pié de la misma.
 
 En el tema de las suscripciones, he eliminado definitivamente la suscripción por rss (digo el archivo rss.xml) y dejado únicamente el atom.xml. Aunque ahora está redireccionado a Feedburner, obviamente el fichero existe en el alojamiento para que éste lo lea. Debido al lamentable cierre de Google Reader, empiezo a pensar que Feedburner será una de las próximas opciones que esta empresa cerrará y estoy buscando alternativas.
 
