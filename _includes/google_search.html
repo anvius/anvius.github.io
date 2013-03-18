@@ -1,13 +1,5 @@
-	<script>
-            (function() {
-              var cx = 'partner-pub-0080515549184973:scv8ek-rr5n';
-              var gcse = document.createElement('script');
-              gcse.type = 'text/javascript';
-              gcse.async = true;
-              gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-                  '//www.google.com/cse/cse.js?cx=' + cx;
-              var s = document.getElementsByTagName('script')[0];
-              s.parentNode.insertBefore(gcse, s);
-            })();
-          </script>
-          <gcse:searchbox-only></gcse:searchbox-only>
+<form action="/buscar.html" name="searcher" id="searchbox" class="float-right">
+	<input type="text" name="q" placeholder="¿Qué buscas?" />
+</form>
+
+<script type="text/javascript">function urlParams(){var e=document.location.href;e=e.substring(e.lastIndexOf("?")+1);if(e.length>0){e=e.split("&");var t=new Array;for(var n=0;n<e.length;n++){var r=e[n].split("=");t[r[0]]=r[1]}}return t["q"]==undefined?"":t["q"]}var s=document.searcher[0];s.value=urlParams();</script>
