@@ -35,15 +35,30 @@
     <!-- Header -->
     <div class="super-container" id="header">
 	<header class="row">
-	  <hgroup class="col12">
+	  <hgroup class="col6">
 		<img src="/assets/images/ant.onio.logo.png" class="float-left" />
 		<h1 class="bold"><a href="/">Antonio Villamar&iacute;n</a></h1>
 		<h6>ant.onio.org | Un blog m&aacute;s de internet</h6>
 	  </hgroup>
+        <div class="col6">
+          <script>
+            (function() {
+              var cx = 'partner-pub-0080515549184973:scv8ek-rr5n';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                  '//www.google.com/cse/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+            })();
+          </script>
+          <gcse:searchbox-only></gcse:searchbox-only>
+        </div>
 	</header>
     </div>
     <!-- Section -->
-    <article class="row" id="body">
+    <article class="row">
      <!-- Main article -->
       <div class="col9">
         {{ content }}
