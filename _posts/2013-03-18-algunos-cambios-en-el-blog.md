@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Algunos cambios en el blog. Probando nuevas funcionalidades.
+title: Algunos cambios en el blog.
 description: Algunos cambios en el blog. Probando nuevas funcionalidades.
 image: blog.jpg
 tag: General
