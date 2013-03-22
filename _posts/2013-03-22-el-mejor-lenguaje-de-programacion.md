@@ -15,9 +15,9 @@ Aprender a programar es algo que no es tan sencillo como muchos creen. No es que
 
 Creo que antes de saber cual es el mejor lenguaje de programación, hay que tener varios conceptos bien claros y anclados en la cabeza:
 
-- Filosofía de la programación, y con esto no estoy hablando de nada relacionado con Kant :), sino los conceptos básicos, cómo separar un problema en partes más pequeñas y éstas y partes más pequeñas todavía.
-- Cómo funciona aquello donde vamos a programar. No es exactamente lo mismo programar una página web, que un programa de escritorio o un componente para tu consola. También hay diferencias entre los diferentes sistemas operativos, incluso entre versiones del mismo.
-- Las capacidades de los compiladores y los intérpretes no son infinitas. No se puede pensar que un programa (compilado o interpretado) no ocupa memoria, ni encargarse de ésto cuando ya esté programado. Con esto quiero decir que no puede usarse un framework enorme para una web sencilla, o un lenguaje de programación no adecuado a su entorno.
+1. Filosofía de la programación, y con esto no estoy hablando de nada relacionado con Kant :), sino los conceptos básicos, cómo separar un problema en partes más pequeñas y éstas y partes más pequeñas todavía.
+2. Cómo funciona aquello donde vamos a programar. No es exactamente lo mismo programar una página web, que un programa de escritorio o un componente para tu consola. También hay diferencias entre los diferentes sistemas operativos, incluso entre versiones del mismo.
+3. Las capacidades de los compiladores y los intérpretes no son infinitas. No se puede pensar que un programa (compilado o interpretado) no ocupa memoria, ni encargarse de ésto cuando ya esté programado. Con esto quiero decir que no puede usarse un framework enorme para una web sencilla, o un lenguaje de programación no adecuado a su entorno.
 
 Muchos de los que hablan con programadores experimentados les extraña la "obsesión" que parecen tener con que el programa esté optimizado, que ocupe poco, incluso que el editor que usen sea ligero. Esta es una "obsesión" que creo que es básica. Menos es más.
 
