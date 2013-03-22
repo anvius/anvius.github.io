@@ -2,7 +2,7 @@
 layout: post
 title: El mejor lenguaje de programacion
 description: Cual es el mejor lenguaje de programacion.
-image: programming.jpg
+image: programming.png
 author: Antonio Villamarin
 tag: Programacion
 ---
