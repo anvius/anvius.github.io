@@ -45,17 +45,17 @@ Hemos desarrollado algunas más y estamos desarrollando algunas nuevas para el f
 
 Próximamente anunciaré nuevas utilidades.
 
-[1]: http://zeura.com
-[2]: http://leydepropiedadhorizontal.com
-[3]: http://legge104.com
-[4]: http://leydesociedadesdecapital.com
-[5]: http://leydepropiedadintelectual.com
-[6]: http://traductorbinario.com
-[7]: http://traductormorse.com
-[8]: http://codigomorse.com
-[9]: http://phpencode.org
-[10]: http://conversordedivisas.org
-[11]: http://conversordemoneda.org
-[12]: http://acuantoestaeldolar.com
-[13]: http://pesoideal.eu
-[14]: http://calculadoradefertilidad.com
+[1]: //zeura.com
+[2]: //leydepropiedadhorizontal.com
+[3]: //legge104.com
+[4]: //leydesociedadesdecapital.com
+[5]: //leydepropiedadintelectual.com
+[6]: //traductorbinario.com
+[7]: //traductormorse.com
+[8]: //codigomorse.com
+[9]: //phpencode.org
+[10]: //conversordedivisas.org
+[11]: //conversordemoneda.org
+[12]: //acuantoestaeldolar.com
+[13]: //pesoideal.eu
+[14]: //calculadoradefertilidad.com
