@@ -45,7 +45,7 @@ Una vez que todo se adecua a las especificaciones y se han hecho las correspondi
 
 ## Pre-producción.
 
-En preproducción se puede probar en un entorno cerrado de prueba para el cliente, o si las pruebas son para nosotros esta parte se integraría en la anterior. En nuestro caso siempre lo hacemos en fase de Stagging.
+En preproducción se puede probar en un entorno cerrado de prueba para el cliente, o si las pruebas son para nosotros esta parte se integraría en la anterior.
 
 Para la pre-producción y comprobar que todo va bien, nosotros empleamos el mismo método para desplegar que en producción, pero en un entorno acotado, que suele ser o un vps para estas pruebas o bien una máquina virtual en nuestro equipo. Allí se despliega y se prueba. Si todo ha ido bien pasará a producción. Esto no solemos hacerlo en realidad, solamente en los casos en los que hay que enseñárselo a un cliente o que la cantidad de cambios hecha sea tan grande que haya aumentado exponencialmente la posibilidad de bug.
 
@@ -59,7 +59,7 @@ No es muy fiable y rápido emplear ftp para subirlo. Quizá una buena opción se
 
 Para esto usamos capistrano, que permite configurar de una forma sencilla qué vamos a despleagar, dónde y cómo. Una vez configurado él se encarga de todo. Se conecta por ssh, comprueba cómo está todo, compila si es necesario, actualiza las dependencias, etc...sube todo y tachán!!! Todo listo.
 
-Existen otras aplicaciones. *Capistrano* está hecho en ruby, así como su versión para Symfony2 *capifony*. También está *ant* que está hecho en java. También podemos desarrollarlo nosotros mismos a base de scripts.
+Existen otras aplicaciones. *Capistrano* está hecho en ruby, así como su versión para Symfony2 *capifony*. También está *Magallanes* que está hecho en php. También podemos desarrollarlo nosotros mismos a base de scripts.
 
 ## Post-producción.
 
