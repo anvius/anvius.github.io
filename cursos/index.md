@@ -6,7 +6,7 @@ description: "Blog de Antonio Villamarín, un blog más de internet."
 category: cursos
 ---
 {% for post in site.posts %}      
-  {% if post.categories contains 'blog1' %}
+  {% if post.categories contains 'cursos' %}
 	<div class="post">
 		<h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 		<p class="meta">Date: {{ post.date }}</p>
