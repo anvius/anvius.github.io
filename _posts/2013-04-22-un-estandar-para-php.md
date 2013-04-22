@@ -41,12 +41,11 @@ En conclusión diría que gracias a *[Symfony 2][3]* (en la comunidad hipanohabl
 
 Otras cosas que se le han achacado a PHP, principalmente en el pasado, es que era lento por ser interpretado o que su código byte no estaba optimizado. Esto son problemas que pueden existir, pero que a día de hoy están más que solventados. No es más lento que Python o Ruby, y es tan escalable como éstos. PHP tiene una comunidad monstruosa detrás y esto junto al hecho de tener un estándar creo que le va a dar una larga vida como lenguaje dominante en internet del lado del servidor.
 
-<small>Imagen de [kea42][6]</small>
+<small>Imagen de http //www.flickr.com/photos/kea42/4372405053</small>
 
 [1]: //www.php-fig.org/
 [1]: https://github.com/villamarin/fig-standards
-[2]: //symfony.com
+[3]: //symfony.com
 [4]: //symfony.es
 [5]: //javiereguiluz.com
 [6]: //laravel.com
-[7]: //www.flickr.com/photos/kea42/4372405053/
