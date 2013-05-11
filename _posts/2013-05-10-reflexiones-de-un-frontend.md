@@ -28,13 +28,13 @@ Algunos tips que yo daría sobre el frontend serían enfocados a la optimizació
 
 2. Si en nuestro sitio controlamos tan solo 5 o 6 eventos, ¿para qué añadir 70Kb de JQuery? JavaScript es lo suficientemente potente para esto con muchísima menos carga. Recuerda que existe la función "querySelectorAll" para hacer prácticamente los mismo que "$" de JQuery. Esta función también hace prácticamente los mismo:
 
-    function $(a,b){
-        a = a.match(/^(\W)?(.*)/); 
-        return(b||document)['getElement'+(a[1]?a[1]=='#'?'ById':'sByClassName':'sByTagName')](a[2])
-    }
+        function $(a,b){
+            a = a.match(/^(\W)?(.*)/); 
+            return(b||document)['getElement'+(a[1]?a[1]=='#'?'ById':'sByClassName':'sByTagName')](a[2])
+        }
 
-    // Se llama así, como en jQuery
-    $('#cabecera');
+        // Se llama así, como en jQuery
+        $('#cabecera');
 
 3. Hay que conocer bien HTML5, CSS3 y JavaScript. Ya está. Luego podemos ayudarnos de precompiladores como Stylus para facilitarnos la tarea. No hay que seguir lo que la mayoría hace sino que hay que usar el preprocesador que a nosotros nos venga bien. Personalmente recomiendo Stylus. También CoffeeScript para JavaScript, aunque este es más complicado de aprender.
 
