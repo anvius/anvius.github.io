@@ -42,24 +42,38 @@ Algunos tips que yo daría sobre el frontend serían enfocados a la optimizació
 
 5. Hay que olvidarse de navegadores que usa menos del 1% o 2% como Internet Explorer 6 o 7. Hacerlo compatible conlleva más gasto en desarrollo que posibles beneficios. A no ser que hablemos de una aplicación que venda mucho mucho y entonces nos compense, pero esto hay que evaluarlo.
 
-6. Pasar test a las funciones de JavaScript y refactorizar siempre que sea posible. Para hacer test se pueden unar herramientas hechas para ello como QUnit, o podemos simplemente hacernos nuestras pequeñas funciones para comprobar que hace lo que debe. Según el proyecto lo que nos se más fácil.
+6. Pasar test a las funciones de JavaScript y refactorizar siempre que sea posible. Para hacer test se pueden unar herramientas hechas para ello como [QUnit][1], o podemos simplemente hacernos nuestras pequeñas funciones para comprobar que hace lo que debe. Según el proyecto lo que nos se más fácil.
 
 7. Por supuesto minificar todo lo que podamos, HTML, CSS y JavaScript. Y seguir las reglas básicas de carga con el JavaScript al final del renderizado.
 
-8. A ser posible, en el diseño, no usar imágenes sino CSS. No necesitamos meter un gif para hacer un degradado, se puede hacer con CSS. Se pueden emplear fuentes con iconos tipo awesome que además se pueden escalar muy bien porque son vectoriales.
+8. A ser posible, en el diseño, no usar imágenes sino CSS. No necesitamos meter un gif para hacer un degradado, se puede hacer con CSS. Se pueden emplear fuentes con iconos tipo [awesome][2] que además se pueden escalar muy bien porque son vectoriales.
 
-9. Usar una herramienta de plantillas para conectar el backend con el frontend. Hay que buscar la que más se adecue, no la que usamos siempre por comodidad. Siempre pensando en el rendimiento y el tamaño. Si hay que renderizar 4 cosas mejor usar Mustache que ocupa muy poco y es muy rápido que usar Liquid que es muy completo pero tarda mucho más.
+9. Usar una herramienta de plantillas para conectar el backend con el frontend. Hay que buscar la que más se adecue, no la que usamos siempre por comodidad. Siempre pensando en el rendimiento y el tamaño. Si hay que renderizar 4 cosas mejor usar [Mustache][3] que ocupa muy poco y es muy rápido que usar [Liquid][4] que es muy completo pero tarda mucho más.
 
-10. Si necesitamos usar alguna librería de JavaScript buscar la que mejor haga lo que queremos y en menos espacio. Por ejemplo, en el caso de los móviles es mucho mejor emplear QuoJS (12kb) que jQuery (70Kb). También se va a ser offline, puesto que en algunos Android la caché solo permite ficheros de hasta 50Kb.
+10. Si necesitamos usar alguna librería de JavaScript buscar la que mejor haga lo que queremos y en menos espacio. Por ejemplo, en el caso de los móviles es mucho mejor emplear [QuoJS][5] (12kb) que [jQuery][6] (70Kb). También se va a ser offline, puesto que en algunos Android la caché solo permite ficheros de hasta 50Kb.
 
 11. Empezar a no presentar el diseño a los cliente bajo un PSD. Esto debería haber muerto hace mucho tiempo. Los clientes pueden ser de muchos tipos, pero seguro que enseñándole un diseño base en HTML directamente estará más al corriente de lo que obtendrá que con un dibujo.
 
-12. Optimiza el CSS. No uses Bootstrap porque todo el mundo lo usa. Dependiendo del proyecto le sobran muchísimas cosas. Quizá se adapte mejor Skeleton, o Amazium. Incluso fabricarse un framwork uno mismo.
+12. Optimiza el CSS. No uses [Bootstrap][7] porque todo el mundo lo usa. Dependiendo del proyecto le sobran muchísimas cosas. Quizá se adapte mejor [Skeleton][8], o [Amazium][9]. Incluso fabricarse un framwork uno mismo.
 
-13. No ensucies cada lenguaje. El CSS con el CSS, el JavaScript con el JavaScript, y el HTML con el HTML. Intenta usar técnicas como ooCSS para el CSS.
+13. No ensucies cada lenguaje. El CSS con el CSS, el JavaScript con el JavaScript, y el HTML con el HTML. Intenta usar técnicas como [ooCSS][10] para el CSS.
 
 14. Si es una aplicación rica en el cliente empezar a desarrollar sobre REST para pedir los datos usando el protocolo que lleva allí desde el 2000, el HTTP.
 
-15. Si vas a usar un MVC en JavaScript plantéate cual de ellos es el más oportuno y sobre todo cual es el que menos "ensucia" el código. Backbone me parece que está bastante bien, pero en mi opinión ensucia mucho el HTML. LungoJS está bastante bien, así como Angular. Las plantillas en ficheros externos aunque el producción queden juntos, es decir, si vas a usar Mustache o Jade, crea las plantillas en ficheros separados.
+15. Si vas a usar un MVC en JavaScript plantéate cual de ellos es el más oportuno y sobre todo cual es el que menos "ensucia" el código. [Backbone][11] me parece que está bastante bien, pero en mi opinión ensucia mucho el HTML. [LungoJS][12] está bastante bien, así como [Angular][13]. Las plantillas en ficheros externos aunque el producción queden juntos, es decir, si vas a usar Mustache o Jade, crea las plantillas en ficheros separados.
 
 Como conclusión diría que no hay que quedarse atrás nunca, hay que conocer todas las herramientas posibles y no anclarse en una determinada tecnología, estudiar todos los días, conocer nuevas librerías y técnicas, y separar bien el código para poder reutilizarlo como se debe. No hay que reinventar la rueda, pero tampoco hay que ponerle una rueda de camión a la bicicleta.
+
+[1]: //qunitjs.com
+[2]: //fortawesome.github.io/Font-Awesome
+[3]: //mustache.github.io
+[4]: //github.com/Shopify/liquid
+[5]: //quojs.tapquo.com
+[6]: //jquery.com
+[7]: //twitter.github.io/bootstrap
+[8]: //www.getskeleton.com
+[9]: //www.amazium.co.uk
+[10]: //oocss.org
+[11]: //backbonejs.org
+[12]: //lungo.tapquo.com
+[13]: //angularjs.org
