@@ -29,25 +29,26 @@ Aquí separaría en dos grandes grupos: extensión y keyword.
 
 1. Extensión: la extensión es una parte importante del dominio para todos, ya que no es lo mismo tener un punto com que un punto ws, por ejemplo. En la extensión hay varias cosas que podemos medir.
 
-    - Precio medio de registro de la extensión.
-    - Disponibilidad de acceso a la extensión.
-    - Cantidad de dominios registrados en esta extensión.
-    - Idioma de la extensión. Es decir la relación entre la extensión y el idioma del dominio.
-    - Registros de la extensión en el/los pais/es objetivos del dominio y/o el idioma.
-    - De segundo o tercer nivel.
-    - Estabilidad de la extensión.
-    - gTLD, ccTLD, newTLD, gccTLD. Tipo de extensión.
-    - Lo común que es una determinada extensión entre las webs más visitadas.
+    1. Precio medio de registro de la extensión.
+    2. Disponibilidad de acceso a la extensión.
+    3. Cantidad de dominios registrados en esta extensión.
+    4. Idioma de la extensión. Es decir la relación entre la extensión y el idioma del dominio.
+    5. Registros de la extensión en el/los pais/es objetivos del dominio y/o el idioma.
+    6. De segundo o tercer nivel.
+    7. Estabilidad de la extensión.
+    8. gTLD, ccTLD, newTLD, gccTLD. Tipo de extensión.
+    9. Lo común que es una determinada extensión entre las webs más visitadas.
+
 
 2. Keyword: por supuesto, la keyword es probablemente la parte más importante del dominio, describe un producto, servicio u otro, y nos permite medir algunos otros conceptos.
 
-    - Búsquedas que tiene.
-    - Apariciones en buscadores del término.
-    - Precio medio del pago de publicidad en el término.
-    - Competencia de los anunciantes.
-    - Idioma.
-    - Penetración de internet en el/los territorio/s objetivo del dominio.
-    - Capacidad económica de estos territorios.
-    - Ocupación de otras extensiones.
+    1. Búsquedas que tiene.
+    2. Apariciones en buscadores del término.
+    3. Precio medio del pago de publicidad en el término.
+    4. Competencia de los anunciantes.
+    5. Idioma.
+    6. Penetración de internet en el/los territorio/s objetivo del dominio.
+    7. Capacidad económica de estos territorios.
+    8. Ocupación de otras extensiones.
 
 Existen algunos factores externos al propio dominio que pueden aumentar su precio, pero no su valor, como por ejemplo que el dominio esté posicionado en buscadores, o que tenga alguna web desarrollada, que pueden convertirse en extras al dominio para conseguir un precio superior.
