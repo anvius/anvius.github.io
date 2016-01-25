@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Antonio Villamarin</title>
- <link href="http://ant.onio.org/atom.xml" rel="self"/>
- <link href="http://ant.onio.org/"/>
+ <link href="http://anvius.github.io/atom.xml" rel="self"/>
+ <link href="http://anvius.github.io/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://ant.onio.org/</id>
+ <id>http://anvius.github.io/</id>
  <author>
    <name>{% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}</name>
    <email>{{ site.email }}</email>
@@ -17,14 +17,14 @@ layout: nil
  {% for post in site.posts limit:10 %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://ant.onio.org{{ post.url }}"/>
+   <link href="http://anvius.github.io{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://ant.onio.org{{ post.id }}</id>
+   <id>http://anvius.github.io{{ post.id }}</id>
    <content type="html">
 		{% if post.image != null %}
 			<img src="/assets/images/{{ post.image }}" />
 		{% endif %}
-		{{ post.content |  truncatewords : '100' | xml_escape }}{{ " [ <a href='http://" | xml_escape }}ant.onio.org{{ post.url }}{{ "'>Continuar leyendo...</a> ]" | xml_escape }}
+		{{ post.content |  truncatewords : '100' | xml_escape }}{{ " [ <a href='http://" | xml_escape }}anvius.github.io{{ post.url }}{{ "'>Continuar leyendo...</a> ]" | xml_escape }}
 	</content>
  </entry>
  {% endfor %}
