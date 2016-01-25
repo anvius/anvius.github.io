@@ -4,7 +4,7 @@ title: "El blog de programación de Antonio Villamarín"
 keywords: "Antonio, Antonio Villamarin, Antonio Villamarin Bajo, Zeura, Zeura Netowrk"
 description: "Blog de Antonio Villamarín, un blog más de internet."
 ---
-				{% for post in site.posts %}
+				{% for post in paginator.posts %}
 				<section id="article_item">
 					<header>
 						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
@@ -17,7 +17,7 @@ description: "Blog de Antonio Villamarín, un blog más de internet."
 						{% if post.image != null %}
 							<img src="/assets/images/{{ post.image }}" class="float-left thumb" />
 						{% endif %}
-						{{ post.content | truncatewords : '75' }}
+						{{ post.content | truncatewords : '60' }}
 					</article>
 					<footer class="right"><p><span class="tag"><a href="{{ post.url }}" class="">Continuar leyendo...</a></span></p></footer>
 				</section>
@@ -25,7 +25,6 @@ description: "Blog de Antonio Villamarín, un blog más de internet."
 
 				<div class="paginate"></div>
 
-				<!-- Pagination links
 				<div class="center">
 					<ul class="pages">
 						<li>
@@ -67,6 +66,6 @@ description: "Blog de Antonio Villamarín, un blog más de internet."
 							{% endif %}
 						</li>
 					</ul>
-				</div> -->
+				</div>
 
     				{% include disqus_counter.html %}
