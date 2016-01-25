@@ -7,6 +7,6 @@ rdiscount:
     extensions: [smart]
 paginate: 5
 lsi: true
-url: 'ant.onio.org'
-title: El blog de Antonio
+url: 'anvius.github.io'
+title: Mi blog sobre tecnología
 author: Antonio Villamarin
