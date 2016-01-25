@@ -9,7 +9,7 @@ description: "Blog de Antonio Villamarín, un blog más de internet."
 					<header>
 						<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 						<p class="small">
-							{{ post.date | date: "%d.%m.%Y" }} Por <span class="author vcard"><a rel="author"  class="url fn" href="http://ant.onio.org/sobre-mi.html">Antonio Villamar&iacute;n</a></span> |
+							{{ post.date | date: "%d.%m.%Y" }} Por <span class="author vcard"><a rel="author"  class="url fn" href="http://anvius.github.io/sobre-mi.html">Antonio Villamar&iacute;n</a></span> |
 							<a href="{{ post.url }}#disqus_thread">Comentarios</a>
 						</p>
 					</header>
@@ -17,10 +17,10 @@ description: "Blog de Antonio Villamarín, un blog más de internet."
 						{% if post.image != null %}
 							<img src="/assets/images/{{ post.image }}" class="float-left thumb" />
 						{% endif %}
-						{{ post.content | truncatewords : '75' }}				
+						{{ post.content | truncatewords : '75' }}
 					</article>
 					<footer class="right"><p><span class="tag"><a href="{{ post.url }}" class="">Continuar leyendo...</a></span></p></footer>
-				</section>	
+				</section>
 				{% endfor %}
 
 				<div class="paginate"></div>
@@ -40,7 +40,7 @@ description: "Blog de Antonio Villamarín, un blog más de internet."
 							{% endif %}
 						</li>
 
-					
+
 						<li>
 							{% if paginator.page == 1 %}
 								<span class="active">1</span>
@@ -68,5 +68,5 @@ description: "Blog de Antonio Villamarín, un blog más de internet."
 						</li>
 					</ul>
 				</div> -->
-    
+
     				{% include disqus_counter.html %}

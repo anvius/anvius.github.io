@@ -6,7 +6,7 @@ layout: gridcss
 				<h2><a href="{{ post.url }}">{{ page.title }}</a></h2>
 				<p class="small">
 					{{ page.date | date: "%d.%m.%Y" }}
-					Por <span class="author vcard"><a rel="author"  class="url fn" href="http://ant.onio.org/sobre-mi.html">Antonio Villamar&iacute;n</a></span>
+					Por <span class="author vcard"><a rel="author"  class="url fn" href="http://anvius.github.io/sobre-mi.html">Antonio Villamar&iacute;n</a></span>
 				</p>
 				<!-- Social like's -->
 					<div>
@@ -42,7 +42,7 @@ layout: gridcss
 							{% for post in site.related_posts limit:3 %}
 								<li><span class="small">{{ post.date | date: "%d.%m.%Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
 							{% endfor %}
-						</ul>	
+						</ul>
 					</section>
 				{% endif %}
 				<div class="center">
