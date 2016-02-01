@@ -4,7 +4,7 @@ title: Resumen anual de la venta de dominios de la empresa
 description: Estadísticas sobre las ventas de dominios que hemos tenido en la empresa
 image: estadisticas-2015.png
 author: Antonio Villamarin
-tag: Blog
+tag: [Empresa,Dominios,Ventas] 
 ---
 
 Una vez finalizado el mes de Enero ya podemos ofrecer los resultados del año 2015 en relación a las ventas de ese mismo año.
