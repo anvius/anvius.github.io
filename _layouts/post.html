@@ -28,7 +28,7 @@ layout: gridcss
 				{{ content }}
 				<p class="right small">
 					<br />
-					-- Artículo etiquetado como: {% for tag in page.tags %} <strong>{{ tag }}</strong>{% if forloop.last != true %},{% endif %} {% endfor %}
+					{% for tag in page.tags %} <strong>{{ tag }}</strong>{% if forloop.last != true %},{% endif %} {% endfor %}
 					<br />
 				</p>
 			</article>

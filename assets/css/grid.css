@@ -54,6 +54,10 @@ article img {
     width: 96%;
 }
 
+nav img {
+    width: auto;
+}
+
 .pages {
 	display: block;
 }
