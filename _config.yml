@@ -1,5 +1,5 @@
 auto: true
-permalink: date
+# permalink: date
 # pygments: true
 exclude: ['README.md','.gitignore','CNAME','blog.sublime-project','blog.sublime-workspace']
 # markdown: rdiscount
