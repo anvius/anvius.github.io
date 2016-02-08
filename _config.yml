@@ -1,10 +1,10 @@
 auto: true
 permalink: date
-pygments: true
+# pygments: true
 exclude: ['README.md','.gitignore','CNAME','blog.sublime-project','blog.sublime-workspace']
-markdown: rdiscount
-rdiscount:
-    extensions: [smart]
+# markdown: rdiscount
+# rdiscount:
+#    extensions: [smart]
 paginate: 5
 lsi: true
 url: 'anvius.github.io'
